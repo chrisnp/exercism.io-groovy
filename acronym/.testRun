@@ -1,0 +1,65 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+AcronymSpec > Basic PASSED
+
+AcronymSpec > Lowercase words PASSED
+
+AcronymSpec > Punctuation PASSED
+
+AcronymSpec > All caps word PASSED
+
+AcronymSpec > Punctuation without whitespace PASSED
+
+AcronymSpec > Very long abbreviation PASSED
+
+AcronymSpec > Consecutive delimiters PASSED
+
+AcronymSpec > Apostrophes PASSED
+
+AcronymSpec > Underscore emphasis PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 1.958 secs
+
+
+
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+AcronymSpec > Basic PASSED
+
+AcronymSpec > Lowercase words PASSED
+
+AcronymSpec > Punctuation PASSED
+
+AcronymSpec > All caps word PASSED
+
+AcronymSpec > Punctuation without whitespace PASSED
+
+AcronymSpec > Very long abbreviation PASSED
+
+AcronymSpec > Consecutive delimiters PASSED
+
+AcronymSpec > Apostrophes PASSED
+
+AcronymSpec > Underscore emphasis PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 2.833 secs
