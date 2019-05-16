@@ -1,0 +1,37 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+IsogramSpec > An empty string PASSED
+
+IsogramSpec > Isogram with only lower case characters PASSED
+
+IsogramSpec > Word with one duplicated character PASSED
+
+IsogramSpec > Word with one duplicated character from the end of the alphabet PASSED
+
+IsogramSpec > Longest reported english isogram PASSED
+
+IsogramSpec > Word with duplicated character in mixed case PASSED
+
+IsogramSpec > Hypothetical isogrammic word with hyphen PASSED
+
+IsogramSpec > Hypothetical word with duplicated character following hyphen PASSED
+
+IsogramSpec > Isogram with duplicated hyphen PASSED
+
+IsogramSpec > Made-up name that is an isogram PASSED
+
+IsogramSpec > Duplicated character in the middle PASSED
+
+IsogramSpec > Same first and last characters PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 6.798 secs
