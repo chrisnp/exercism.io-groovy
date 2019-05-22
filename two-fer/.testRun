@@ -19,3 +19,26 @@ TwoFerSpec > Bob given as name PASSED
 BUILD SUCCESSFUL
 
 Total time: 9.102 secs
+
+
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+TwoFerSpec > No name given PASSED
+
+TwoFerSpec > Empty name given PASSED
+
+TwoFerSpec > Alice given as a name PASSED
+
+TwoFerSpec > Bob given as name PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 7.72 secs
