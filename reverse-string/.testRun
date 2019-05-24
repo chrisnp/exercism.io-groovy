@@ -1,0 +1,46 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+ReverseStringSpec > An empty string PASSED
+
+ReverseStringSpec > A word PASSED
+
+ReverseStringSpec > A capitalized word PASSED
+
+ReverseStringSpec > A sentence with punctuation PASSED
+
+ReverseStringSpec > A palindrome PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 9.27 secs
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+ReverseStringSpec > An empty string PASSED
+
+ReverseStringSpec > A word PASSED
+
+ReverseStringSpec > A capitalized word PASSED
+
+ReverseStringSpec > A sentence with punctuation PASSED
+
+ReverseStringSpec > A palindrome PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 7.512 secs
