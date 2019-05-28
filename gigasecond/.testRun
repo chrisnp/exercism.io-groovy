@@ -1,0 +1,23 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+GigasecondSpec > Date only specification of time PASSED
+
+GigasecondSpec > Second test for date only specification of time PASSED
+
+GigasecondSpec > Third test for date only specification of time PASSED
+
+GigasecondSpec > Full time specified PASSED
+
+GigasecondSpec > Full time with day roll-over PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 8.308 secs

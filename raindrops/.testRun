@@ -1,0 +1,49 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+RaindropsSpec > 1 returns 1 PASSED
+
+RaindropsSpec > 3, being divisible by 3, returns 'Pling' PASSED
+
+RaindropsSpec > 5, divisible by 5, returns 'Plang' PASSED
+
+RaindropsSpec > 7, divisible by 7, returns 'Plong' PASSED
+
+RaindropsSpec > 6, divisible by 3, returns 'Pling' PASSED
+
+RaindropsSpec > 8 returns the string '8' PASSED
+
+RaindropsSpec > 9, divisible by 3, returns 'Pling' PASSED
+
+RaindropsSpec > 10, divisible by 5, returns 'Plang' PASSED
+
+RaindropsSpec > 14, divisible by 7, returns 'Plong' PASSED
+
+RaindropsSpec > 15, divisible by both 3 and 5, returns 'PlingPlang' PASSED
+
+RaindropsSpec > 21, divisible by 3 and 7, returns 'PlingPlong' PASSED
+
+RaindropsSpec > 25, divisible by 5, returns 'Plang' PASSED
+
+RaindropsSpec > 27, divisible by 3, returns 'Pling' PASSED
+
+RaindropsSpec > 35, divisible by 5 and 7, returns 'PlangPlong' PASSED
+
+RaindropsSpec > 49, divisible by 7, returns 'Plong' PASSED
+
+RaindropsSpec > 52 returns the string '52' PASSED
+
+RaindropsSpec > 105 returns 'PlingPlangPlong' PASSED
+
+RaindropsSpec > 3125, divisible by 5, returns 'Plang' PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 12.697 secs
