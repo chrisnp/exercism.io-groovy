@@ -31,3 +31,38 @@ DartsSpec > A dart whose coordinates sum to > 10 but whose radius to origin is <
 BUILD SUCCESSFUL
 
 Total time: 6.872 secs
+
+
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+DartsSpec > A dart lands outside the target PASSED
+
+DartsSpec > A dart lands just in the border of the target PASSED
+
+DartsSpec > A dart lands in the outer circle PASSED
+
+DartsSpec > A dart lands right in the border between outer and middle circles PASSED
+
+DartsSpec > A dart lands in the middle circle PASSED
+
+DartsSpec > A dart lands right in the border between middle and inner circles PASSED
+
+DartsSpec > A dart lands in the inner circle PASSED
+
+DartsSpec > A dart whose coordinates sum to > 1 but whose radius to origin is <= 1 is scored in the inner circle PASSED
+
+DartsSpec > A dart whose coordinates sum to > 5 but whose radius to origin is <= 5 is scored in the middle circle PASSED
+
+DartsSpec > A dart whose coordinates sum to > 10 but whose radius to origin is <= 10 is scored in the outer circle PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 15.689 secs
