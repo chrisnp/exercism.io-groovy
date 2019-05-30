@@ -1,0 +1,33 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+PangramSpec > Sentence empty PASSED
+
+PangramSpec > Recognizes a perfect lower case pangram PASSED
+
+PangramSpec > Pangram with only lower case PASSED
+
+PangramSpec > Missing character 'x' PASSED
+
+PangramSpec > Another missing character, e.g. 'h' PASSED
+
+PangramSpec > Pangram with underscores PASSED
+
+PangramSpec > Pangram with numbers PASSED
+
+PangramSpec > Missing letters replaced by numbers PASSED
+
+PangramSpec > Pangram with mixed case and punctuation PASSED
+
+PangramSpec > Upper and lower case versions of the same character should not be counted separately PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 8.955 secs
