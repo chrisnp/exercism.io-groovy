@@ -14,7 +14,7 @@ class Anagram {
         word.equalsIgnoreCase(candidate)
     }
 
-    private Boolean anagram(String candidate) {
+    private boolean anagram(String candidate) {
         normalForm(word) == normalForm(candidate)
     }
  

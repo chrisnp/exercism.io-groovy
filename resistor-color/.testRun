@@ -1,0 +1,21 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+ResistorColorSpec > black PASSED
+
+ResistorColorSpec > white PASSED
+
+ResistorColorSpec > orange PASSED
+
+ResistorColorSpec > Colors PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 35.26 secs
