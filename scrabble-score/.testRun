@@ -1,0 +1,35 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+ScrabbleScoreSpec > Lowercase letter PASSED
+
+ScrabbleScoreSpec > Uppercase letter PASSED
+
+ScrabbleScoreSpec > Valuable letter PASSED
+
+ScrabbleScoreSpec > Empty input PASSED
+
+ScrabbleScoreSpec > Score for word at should be 2 PASSED
+
+ScrabbleScoreSpec > Score for word zoo should be 12 PASSED
+
+ScrabbleScoreSpec > Score for word street should be 6 PASSED
+
+ScrabbleScoreSpec > Score for word quirky should be 22 PASSED
+
+ScrabbleScoreSpec > Score for word OxyphenButazone should be 41 PASSED
+
+ScrabbleScoreSpec > Score for word pinata should be 8 PASSED
+
+ScrabbleScoreSpec > Score for word abcdefghijklmnopqrstuvwxyz should be 87 PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 43.787 secs
