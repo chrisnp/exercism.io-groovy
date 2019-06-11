@@ -1,0 +1,31 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+DifferenceOfSquaresSpec > Can square the sum of the numbers up to 1 PASSED
+
+DifferenceOfSquaresSpec > Can square the sum of the numbers up to 5 PASSED
+
+DifferenceOfSquaresSpec > Can square the sum of the numbers up to 100 PASSED
+
+DifferenceOfSquaresSpec > Can sum the squares up to 1 PASSED
+
+DifferenceOfSquaresSpec > Can sum the squares up to 5 PASSED
+
+DifferenceOfSquaresSpec > Can sum the squares up to 100 PASSED
+
+DifferenceOfSquaresSpec > Can subtract sum of squares from square of sum of 1 PASSED
+
+DifferenceOfSquaresSpec > Can subtract sum of squares from square of sum of 5 PASSED
+
+DifferenceOfSquaresSpec > Can subtract sum of squares from square of sum of 100 PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 7.922 secs
