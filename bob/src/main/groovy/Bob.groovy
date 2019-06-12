@@ -11,8 +11,6 @@ class Bob {
           false
     }
 
-    
-
     private static boolean question(String input) {
         input.trim().endsWith('?')
     }
