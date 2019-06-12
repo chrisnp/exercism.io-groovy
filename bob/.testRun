@@ -1,0 +1,63 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+BobSpec > Stating something PASSED
+
+BobSpec > Shouting PASSED
+
+BobSpec > Shouting gibberish PASSED
+
+BobSpec > Asking a question PASSED
+
+BobSpec > Asking a numeric question PASSED
+
+BobSpec > Asking gibberish PASSED
+
+BobSpec > Talking forcefully PASSED
+
+BobSpec > Using acronyms in regular speech PASSED
+
+BobSpec > Forceful question PASSED
+
+BobSpec > Shouting numbers PASSED
+
+BobSpec > No letters PASSED
+
+BobSpec > Question with no letters PASSED
+
+BobSpec > Shouting with special characters PASSED
+
+BobSpec > Shouting with no exclamation mark PASSED
+
+BobSpec > Statement containing question mark PASSED
+
+BobSpec > Non-letters with question PASSED
+
+BobSpec > Prattling on PASSED
+
+BobSpec > Silence PASSED
+
+BobSpec > Prolonged silence PASSED
+
+BobSpec > Alternate silence PASSED
+
+BobSpec > Multiple line question PASSED
+
+BobSpec > Starting with whitespace PASSED
+
+BobSpec > Ending with whitespace PASSED
+
+BobSpec > Other whitespace PASSED
+
+BobSpec > Non-question ending with whitespace PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 14.948 secs
