@@ -1,0 +1,25 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+ProverbSpec > Zero pieces PASSED
+
+ProverbSpec > One piece PASSED
+
+ProverbSpec > Two pieces PASSED
+
+ProverbSpec > Three pieces PASSED
+
+ProverbSpec > Full proverb PASSED
+
+ProverbSpec > Four pieces modernized PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 49.985 secs
