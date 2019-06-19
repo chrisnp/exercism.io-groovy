@@ -33,3 +33,41 @@ SecretHandshakeSpec > Do nothing for zero PASSED
 BUILD SUCCESSFUL
 
 Total time: 8.602 secs
+
+
+
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+SecretHandshakeSpec > Wink for 1 PASSED
+
+SecretHandshakeSpec > Double blink for 10 PASSED
+
+SecretHandshakeSpec > Close your eyes for 100 PASSED
+
+SecretHandshakeSpec > Jump for 1000 PASSED
+
+SecretHandshakeSpec > Combine two actions PASSED
+
+SecretHandshakeSpec > Reverse two actions PASSED
+
+SecretHandshakeSpec > Reversing one action gives the same action PASSED
+
+SecretHandshakeSpec > Reversing no actions still gives no actions PASSED
+
+SecretHandshakeSpec > All possible actions PASSED
+
+SecretHandshakeSpec > Reverse all possible actions PASSED
+
+SecretHandshakeSpec > Do nothing for zero PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 7.903 secs
