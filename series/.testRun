@@ -1,0 +1,48 @@
+:compileJava NO-SOURCE
+:compileGroovy UP-TO-DATE
+:processResources NO-SOURCE
+:classes UP-TO-DATE
+:compileTestJava NO-SOURCE
+:compileTestGroovy UP-TO-DATE
+:processTestResources NO-SOURCE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 9.58 secs
+
+
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+SeriesSpec > Slices of one from one PASSED
+
+SeriesSpec > Slices of one from two PASSED
+
+SeriesSpec > Slices of two PASSED
+
+SeriesSpec > Slices of two overlap PASSED
+
+SeriesSpec > Slices can include duplicate PASSED
+
+SeriesSpec > Slices of a long series PASSED
+
+SeriesSpec > Slice length is too large PASSED
+
+SeriesSpec > Slice length cannot be zero PASSED
+
+SeriesSpec > Slice length cannot be negative PASSED
+
+SeriesSpec > Empty series is invalid PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 13.295 secs
