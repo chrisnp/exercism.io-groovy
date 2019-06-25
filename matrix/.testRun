@@ -1,0 +1,29 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+MatrixSpec > Extract row from one number matrix PASSED
+
+MatrixSpec > Can extract row PASSED
+
+MatrixSpec > Extract row where numbers have different widths PASSED
+
+MatrixSpec > Can extract row from non-square matrix PASSED
+
+MatrixSpec > Extract column from one number matrix PASSED
+
+MatrixSpec > Can extract column PASSED
+
+MatrixSpec > Can extract column from non-square matrix PASSED
+
+MatrixSpec > Extract column where numbers have different widths PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 7.395 secs
