@@ -1,0 +1,23 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+NucleotideCountSpec > Empty strand PASSED
+
+NucleotideCountSpec > Can count one nucleotide in single-character input PASSED
+
+NucleotideCountSpec > Strand with repeated nucleotide PASSED
+
+NucleotideCountSpec > Strand with multiple nucleotides PASSED
+
+NucleotideCountSpec > Strand with invalid nucleotides PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 7.784 secs
