@@ -12,8 +12,8 @@ class ProteinTranslation {
                   (it =~ /UA[CU]/)   ? 'Tyrosine'      :
                   (it =~ /UG[CU]/)   ? 'Cysteine'      :
                   (it == 'UGG')      ? 'Tryptophan'    :
-                  (it == 'UGA')      ? 'STOP'          :
-                  (it =~ /UA[AG]/)   ? 'STOP'          : 
+                  (it =~ /UA[AG]/)   ? 'STOP'          :
+                  (it == 'UGA')      ? 'STOP'          : 
                   '' }
               .takeWhile { it != 'STOP' }
     }
