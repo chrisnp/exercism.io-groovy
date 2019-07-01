@@ -1,0 +1,41 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+ProteinTranslationSpec > Methionine RNA sequence PASSED
+
+ProteinTranslationSpec > Phenylalanine RNA sequence PASSED
+
+ProteinTranslationSpec > Leucine RNA sequence PASSED
+
+ProteinTranslationSpec > Serine RNA sequence PASSED
+
+ProteinTranslationSpec > Tyrosine RNA sequence PASSED
+
+ProteinTranslationSpec > Cysteine RNA sequence PASSED
+
+ProteinTranslationSpec > Tryptophan RNA sequence PASSED
+
+ProteinTranslationSpec > STOP codon RNA sequence PASSED
+
+ProteinTranslationSpec > Translate RNA strand into correct protein list PASSED
+
+ProteinTranslationSpec > Translation stops if STOP codon at beginning of sequence PASSED
+
+ProteinTranslationSpec > Translation stops if STOP codon at end of two-codon sequence PASSED
+
+ProteinTranslationSpec > Translation stops if STOP codon at end of three-codon sequence PASSED
+
+ProteinTranslationSpec > Translation stops if STOP codon in middle of three-codon sequence PASSED
+
+ProteinTranslationSpec > Translation stops if STOP codon in middle of six-codon sequence PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 9.582 secs
