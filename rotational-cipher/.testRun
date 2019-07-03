@@ -1,0 +1,33 @@
+:compileJava NO-SOURCE
+:compileGroovy UP-TO-DATE
+:processResources NO-SOURCE
+:classes UP-TO-DATE
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+RotationalCipherSpec > Rotate a by 0, same output as input PASSED
+
+RotationalCipherSpec > Rotate a by 1 PASSED
+
+RotationalCipherSpec > Rotate a by 26, same output as input PASSED
+
+RotationalCipherSpec > Rotate m by 13 PASSED
+
+RotationalCipherSpec > Rotate n by 13 with wrap around alphabet PASSED
+
+RotationalCipherSpec > Rotate capital letters PASSED
+
+RotationalCipherSpec > Rotate spaces PASSED
+
+RotationalCipherSpec > Rotate numbers PASSED
+
+RotationalCipherSpec > Rotate punctuation PASSED
+
+RotationalCipherSpec > Rotate all letters PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 8.561 secs
