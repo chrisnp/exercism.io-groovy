@@ -3,3 +3,4 @@ cleanup.*
 /*/.gradle/
 /*/build/
 /.vscode/
+/.ionide/
