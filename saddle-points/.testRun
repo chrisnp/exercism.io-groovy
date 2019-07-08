@@ -1,0 +1,64 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+SaddlePointsSpec > Can identify single saddle point PASSED
+
+SaddlePointsSpec > Can identify that empty matrix has no saddle points PASSED
+
+SaddlePointsSpec > Can identify lack of saddle points when there are none PASSED
+
+SaddlePointsSpec > Can identify multiple saddle points in a column PASSED
+
+SaddlePointsSpec > Can identify multiple saddle points in a row PASSED
+
+SaddlePointsSpec > Can identify saddle point in bottom right corner PASSED
+
+SaddlePointsSpec > Can identify saddle points in a non square matrix PASSED
+
+SaddlePointsSpec > Can identify that saddle points in a single column matrix are those with the minimum value PASSED
+
+SaddlePointsSpec > Can identify that saddle points in a single row matrix are those with the maximum value PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 39.469 secs
+
+
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+SaddlePointsSpec > Can identify single saddle point PASSED
+
+SaddlePointsSpec > Can identify that empty matrix has no saddle points PASSED
+
+SaddlePointsSpec > Can identify lack of saddle points when there are none PASSED
+
+SaddlePointsSpec > Can identify multiple saddle points in a column PASSED
+
+SaddlePointsSpec > Can identify multiple saddle points in a row PASSED
+
+SaddlePointsSpec > Can identify saddle point in bottom right corner PASSED
+
+SaddlePointsSpec > Can identify saddle points in a non square matrix PASSED
+
+SaddlePointsSpec > Can identify that saddle points in a single column matrix are those with the minimum value PASSED
+
+SaddlePointsSpec > Can identify that saddle points in a single row matrix are those with the maximum value PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 7.066 secs
