@@ -1,0 +1,25 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+CollatzConjectureSpec > Zero steps for one PASSED
+
+CollatzConjectureSpec > Divide if even PASSED
+
+CollatzConjectureSpec > Even and odd steps PASSED
+
+CollatzConjectureSpec > Large number of even and odd steps PASSED
+
+CollatzConjectureSpec > Zero is an error PASSED
+
+CollatzConjectureSpec > Negative value is an error PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 59.747 secs
