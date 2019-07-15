@@ -23,3 +23,31 @@ FlattenArraySpec > All values in nested list are null PASSED
 BUILD SUCCESSFUL
 
 Total time: 7.847 secs
+
+
+
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+FlattenArraySpec > No nesting PASSED
+
+FlattenArraySpec > Flattens array with just integers present PASSED
+
+FlattenArraySpec > 5 level nesting PASSED
+
+FlattenArraySpec > 6 level nesting PASSED
+
+FlattenArraySpec > 6 level nest list with null values PASSED
+
+FlattenArraySpec > All values in nested list are null PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 7.846 secs
