@@ -2,8 +2,6 @@ class FlattenArray {
 
     static Collection flatten( array ) {
 
-        // Collection flat = []
-
         array.inject([], { flat, element ->
             if (element instanceof Collection)
                 FlattenArray.flatten(element)
