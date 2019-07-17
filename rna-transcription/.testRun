@@ -27,3 +27,34 @@ RnaTranscriptionSpec > Correctly handles partially invalid input PASSED
 BUILD SUCCESSFUL
 
 Total time: 8.378 secs
+
+
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+RnaTranscriptionSpec > The RNA complement of cytosine is guanine PASSED
+
+RnaTranscriptionSpec > The RNA complement of guanine is cytosine PASSED
+
+RnaTranscriptionSpec > The RNA complement of thymine is adenine PASSED
+
+RnaTranscriptionSpec > The RNA complement of adenine is uracil PASSED
+
+RnaTranscriptionSpec > Can calculate long strand complement PASSED
+
+RnaTranscriptionSpec > Correctly handles invalid input PASSED
+
+RnaTranscriptionSpec > Correctly handles completely invalid input PASSED
+
+RnaTranscriptionSpec > Correctly handles partially invalid input PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 9.163 secs
