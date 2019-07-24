@@ -1,0 +1,43 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+AtbashCipherSpec > Encode yes PASSED
+
+AtbashCipherSpec > Encode no PASSED
+
+AtbashCipherSpec > Encode OMG PASSED
+
+AtbashCipherSpec > Encode spaces PASSED
+
+AtbashCipherSpec > Encode mindblowingly PASSED
+
+AtbashCipherSpec > Encode numbers PASSED
+
+AtbashCipherSpec > Encode deep thought PASSED
+
+AtbashCipherSpec > Encode all the letters PASSED
+
+AtbashCipherSpec > Decode exercism PASSED
+
+AtbashCipherSpec > Decode a sentence PASSED
+
+AtbashCipherSpec > Decode numbers PASSED
+
+AtbashCipherSpec > Decode all the letters PASSED
+
+AtbashCipherSpec > Decode with too many spaces PASSED
+
+AtbashCipherSpec > Decode with no spaces PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 4.277 secs
+
+
