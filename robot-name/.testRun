@@ -1,0 +1,21 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+RobotNameSpec > Generates a name PASSED
+
+RobotNameSpec > Generates the same name when called again PASSED
+
+RobotNameSpec > Different robots generate different names PASSED
+
+RobotNameSpec > Can be reset to generate another name PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 14.852 secs
