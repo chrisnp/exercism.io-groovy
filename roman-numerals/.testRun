@@ -1,0 +1,66 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+RomanNumeralsSpec > Can convert arabic 1 to roman I PASSED
+
+RomanNumeralsSpec > Can convert arabic 2 to roman II PASSED
+
+RomanNumeralsSpec > Can convert arabic 3 to roman III PASSED
+
+RomanNumeralsSpec > Can convert arabic 4 to roman IV PASSED
+
+RomanNumeralsSpec > Can convert arabic 5 to roman V PASSED
+
+RomanNumeralsSpec > Can convert arabic 6 to roman VI PASSED
+
+RomanNumeralsSpec > Can convert arabic 9 to roman IX PASSED
+
+RomanNumeralsSpec > Can convert arabic 27 to roman XXVII PASSED
+
+RomanNumeralsSpec > Can convert arabic 48 to roman XLVIII PASSED
+
+RomanNumeralsSpec > Can convert arabic 59 to roman LIX PASSED
+
+RomanNumeralsSpec > Can convert arabic 93 to roman XCIII PASSED
+
+RomanNumeralsSpec > Can convert arabic 141 to roman CXLI PASSED
+
+RomanNumeralsSpec > Can convert arabic 163 to roman CLXIII PASSED
+
+RomanNumeralsSpec > Can convert arabic 402 to roman CDII PASSED
+
+RomanNumeralsSpec > Can convert arabic 575 to roman DLXXV PASSED
+
+RomanNumeralsSpec > Can convert arabic 911 to roman CMXI PASSED
+
+RomanNumeralsSpec > Can convert arabic 1024 to roman MXXIV PASSED
+
+RomanNumeralsSpec > Can convert arabic 3000 to roman MMM PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 55.683 secs
+
+
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy UP-TO-DATE
+:processTestResources NO-SOURCE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 25.82 secs
+
+
