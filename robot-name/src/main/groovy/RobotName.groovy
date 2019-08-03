@@ -3,8 +3,11 @@ class RobotName {
     String name
     private static Random random
     private static usedNames = []
+    private static final int AllNames = 26^2 * 10^3
 
     RobotName() {
+        if (usedNames.size() >= AllNames)
+            throw new Exception("All possible names are being used")
         random = new Random()
         reset()
         usedNames << name
