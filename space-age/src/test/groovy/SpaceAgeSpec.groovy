@@ -11,7 +11,7 @@ class SpaceAgeSpec extends Specification {
         'Earth' | 1000000000 || 31.69
     }
 
-    // @Ignore
+    @Ignore
     def "Age on Mercury"() {
         expect:
         SpaceAge.age(planet, seconds) == expected
@@ -21,7 +21,7 @@ class SpaceAgeSpec extends Specification {
         'Mercury' | 2134835688 || 280.88
     }
 
-    // @Ignore
+    @Ignore
     def "Age on Venus"() {
         expect:
         SpaceAge.age(planet, seconds) == expected
@@ -31,7 +31,7 @@ class SpaceAgeSpec extends Specification {
         'Venus' | 189839836 || 9.78
     }
 
-    // @Ignore
+    @Ignore
     def "Age on Mars"() {
         expect:
         SpaceAge.age(planet, seconds) == expected
