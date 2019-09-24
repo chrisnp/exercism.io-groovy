@@ -35,3 +35,43 @@ AnagramSpec > Words are not anagrams of themselves (case-insensitive) PASSED
 BUILD SUCCESSFUL
 
 Total time: 8.475 secs
+
+
+
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+AnagramSpec > No matches PASSED
+
+AnagramSpec > Detects two anagrams PASSED
+
+AnagramSpec > Does not detect anagram subsets PASSED
+
+AnagramSpec > Detects anagram PASSED
+
+AnagramSpec > Detects three anagrams PASSED
+
+AnagramSpec > Does not detect non-anagrams with identical checksum PASSED
+
+AnagramSpec > Detects anagrams case-insensitively PASSED
+
+AnagramSpec > Detects anagrams using case-insensitive subject PASSED
+
+AnagramSpec > Detects anagrams using case-insensitive possible matches PASSED
+
+AnagramSpec > Does not detect a anagram if the original word is repeated PASSED
+
+AnagramSpec > Anagrams must use all letters exactly once PASSED
+
+AnagramSpec > Words are not anagrams of themselves (case-insensitive) PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 28.463 secs
