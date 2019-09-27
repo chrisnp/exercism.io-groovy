@@ -2,6 +2,7 @@ cleanup.*
 .gradle/
 /*/.gradle/
 /*/build/
+/*/bin/
 /.vscode/
 /.ionide/
 .project
