@@ -7,8 +7,31 @@ class BinarySearch {
         this.data = data
     }
 
-    int indexOf(item) {
-        throw new UnsupportedOperationException('indexOf method not implemented')
+    int binarySearch(value, low, high) {
+
+        int mid = (low + high) / 2
+
+        if (data[mid] == value) 
+            return mid
+
+        if (low >= high ) {
+            return -1
+        }
+        else {
+            if (data[mid] < value) {
+                return binarySearch(value, mid + 1, high)
+            }
+            else {
+                return binarySearch(value, low, mid - 1)
+            }
+        }
     }
 
+    int indexOf(item) {
+        
+        if (!data || item < data[0] || item > data[data.size() - 1])
+            return -1 
+        
+        return binarySearch(item, 0, data.size() - 1)
+    }
 }
