@@ -1,0 +1,29 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+SpaceAgeSpec > Age on Earth PASSED
+
+SpaceAgeSpec > Age on Mercury PASSED
+
+SpaceAgeSpec > Age on Venus PASSED
+
+SpaceAgeSpec > Age on Mars PASSED
+
+SpaceAgeSpec > Age on Jupiter PASSED
+
+SpaceAgeSpec > Age on Saturn PASSED
+
+SpaceAgeSpec > Age on Uranus PASSED
+
+SpaceAgeSpec > Age on Neptune PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 11.284 secs
