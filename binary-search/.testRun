@@ -1,0 +1,35 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+BinarySearchSpec > Finds a value in an array with one element PASSED
+
+BinarySearchSpec > Finds a value in the middle of an array PASSED
+
+BinarySearchSpec > Finds a value at the beginning of an array PASSED
+
+BinarySearchSpec > Finds a value at the end of an array PASSED
+
+BinarySearchSpec > Finds a value in an array of odd length PASSED
+
+BinarySearchSpec > Finds a value in an array of even length PASSED
+
+BinarySearchSpec > Identifies that a value is not included in the array PASSED
+
+BinarySearchSpec > A value smaller than the arrays smallest value is not included PASSED
+
+BinarySearchSpec > A value larger than the arrays largest value is not included PASSED
+
+BinarySearchSpec > Nothing is included in an empty array PASSED
+
+BinarySearchSpec > Nothing is found when the left and right bounds cross PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 8.762 secs
