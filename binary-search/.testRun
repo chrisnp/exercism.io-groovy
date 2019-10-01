@@ -33,3 +33,19 @@ BinarySearchSpec > Nothing is found when the left and right bounds cross PASSED
 BUILD SUCCESSFUL
 
 Total time: 8.762 secs
+
+
+
+:compileJava NO-SOURCE
+:compileGroovy UP-TO-DATE
+:processResources NO-SOURCE
+:classes UP-TO-DATE
+:compileTestJava NO-SOURCE
+:compileTestGroovy UP-TO-DATE
+:processTestResources NO-SOURCE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 2.114 secs
