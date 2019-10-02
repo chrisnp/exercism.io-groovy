@@ -37,3 +37,48 @@ RunLengthEncodingSpec > Encode followed by decode gives original string PASSED
 BUILD SUCCESSFUL
 
 Total time: 8.07 secs
+
+
+
+Starting a Gradle Daemon, 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+RunLengthEncodingSpec > Run-length encode  PASSED
+
+RunLengthEncodingSpec > Run-length encode XYZ PASSED
+
+RunLengthEncodingSpec > Run-length encode AABBBCCCC PASSED
+
+RunLengthEncodingSpec > Run-length encode WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWB PASSED
+
+RunLengthEncodingSpec > Run-length encode   hsqq qww   PASSED
+
+RunLengthEncodingSpec > Run-length encode aabbbcccc PASSED
+
+RunLengthEncodingSpec > Run-length decode  PASSED
+
+RunLengthEncodingSpec > Run-length decode XYZ PASSED
+
+RunLengthEncodingSpec > Run-length decode 2A3B4C PASSED
+
+RunLengthEncodingSpec > Run-length decode 12WB12W3B24WB PASSED
+
+RunLengthEncodingSpec > Run-length decode 2 hs2q q2w2  PASSED
+
+RunLengthEncodingSpec > Run-length decode 2a3b4c PASSED
+
+RunLengthEncodingSpec > Encode followed by decode gives original string PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 7.274 secs
+
+

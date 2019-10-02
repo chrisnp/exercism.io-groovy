@@ -18,11 +18,11 @@ class BinarySearch {
             return -1
         }
         else {
-            if (data[mid] < value) {
-                return binarySearch(value, mid + 1, high)
+            if (data[mid] > value) {
+                return binarySearch(value, low, mid - 1)
             }
             else {
-                return binarySearch(value, low, mid - 1)
+                return binarySearch(value, mid + 1, high)
             }
         }
     }
