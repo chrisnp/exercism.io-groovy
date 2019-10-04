@@ -1,27 +1,29 @@
 class PhoneNumber {
 
-    private static final NANP_REGEX = 
-        ~/^(?:\+?1)?[-.(\s]*([2-9]\d\d)[-.)\s]*\s?([2-9]\d\d)[-.\s]*(\d{4})\s*$/
+    private static final NANP = ~/^1?([2-9]\d{2})([2-9]\d{2})(\d{4})$/
 
-    final String area, xchange, subscriber, number 
-    
+    final String number
+    final String areaCode
+    final String xchange 
+    final String subscriber 
+     
     PhoneNumber(String input) {
 
         def matcher = 
-            (input.replaceAll(/\D*/, '') =~ NANP_REGEX)
+            (input.replaceAll(/\D+/, '') =~ NANP)
 
         if (matcher) {
-            area = matcher.group(1)
+            areaCode = matcher.group(1)
             xchange = matcher.group(2)
             subscriber = matcher.group(3)
+            number = "${areaCode}${xchange}${subscriber}"
         }
-        else 
-            ['000', '000', '0000']
-
-        number = "${area}${xchange}${subscriber}"
+        else {
+            number = "0000000000"
+        }
     }
 
     String toString() {
-        "(${area}) ${xchange}-${subscriber}"
+        "(${areaCode}) ${xchange}-${subscriber}"
     }
 }
