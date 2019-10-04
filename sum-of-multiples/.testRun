@@ -1,0 +1,45 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+SumOfMultiplesSpec > No multiples within limit PASSED
+
+SumOfMultiplesSpec > One factor has multiples within limit PASSED
+
+SumOfMultiplesSpec > More than one multiple within limit PASSED
+
+SumOfMultiplesSpec > More than one factor with multiples within limit PASSED
+
+SumOfMultiplesSpec > Each multiple is only counted once PASSED
+
+SumOfMultiplesSpec > A much larger limit PASSED
+
+SumOfMultiplesSpec > Three factors PASSED
+
+SumOfMultiplesSpec > Factors not relatively prime PASSED
+
+SumOfMultiplesSpec > Some pairs of factors relatively prime and some not PASSED
+
+SumOfMultiplesSpec > One factor is a multiple of another PASSED
+
+SumOfMultiplesSpec > Much larger factors PASSED
+
+SumOfMultiplesSpec > All numbers are multiples of 1 PASSED
+
+SumOfMultiplesSpec > No factors means an empty sum PASSED
+
+SumOfMultiplesSpec > The only multiple of 0 is 0 PASSED
+
+SumOfMultiplesSpec > The factor 0 does not affect the sum of multiples of other factors PASSED
+
+SumOfMultiplesSpec > Solutions using include-exclude must extend to cardinality greater than 3 PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 10.326 secs
