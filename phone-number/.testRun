@@ -1,0 +1,47 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+PhoneNumberSpec > Cleans the number PASSED
+
+PhoneNumberSpec > Cleans numbers with dots PASSED
+
+PhoneNumberSpec > Cleans numbers with multiple spaces PASSED
+
+PhoneNumberSpec > invalid when 9 digits PASSED
+
+PhoneNumberSpec > invalid when 11 digits does not start with a 1 PASSED
+
+PhoneNumberSpec > valid when 11 digits and starting with 1 PASSED
+
+PhoneNumberSpec > valid when 11 digits and starting with 1 even with punctuation PASSED
+
+PhoneNumberSpec > invalid when more than 11 digits PASSED
+
+PhoneNumberSpec > invalid with letters PASSED
+
+PhoneNumberSpec > invalid with punctuations PASSED
+
+PhoneNumberSpec > invalid if area code starts with 0 PASSED
+
+PhoneNumberSpec > invalid if area code starts with 1 PASSED
+
+PhoneNumberSpec > invalid if exchange code starts with 0 PASSED
+
+PhoneNumberSpec > invalid if exchange code starts with 1 PASSED
+
+PhoneNumberSpec > Can extract an area code from a phone number PASSED
+
+PhoneNumberSpec > Can pretty print a phone number PASSED
+
+PhoneNumberSpec > Can pretty print a full U.S. phone number PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 8.264 secs
