@@ -1,0 +1,21 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+ETLSpec > Single letter PASSED
+
+ETLSpec > Single score with multiple letters PASSED
+
+ETLSpec > Multiple scores with multiple letters PASSED
+
+ETLSpec > Multiple scores with differing numbers of letters PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 9.322 secs
