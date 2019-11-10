@@ -1,0 +1,53 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+AllYourBaseSpec > Single bit one to decimal PASSED
+
+AllYourBaseSpec > Single decimal to binary PASSED
+
+AllYourBaseSpec > Binary to multiple decimal PASSED
+
+AllYourBaseSpec > Decimal to binary PASSED
+
+AllYourBaseSpec > Trinary to hexadecimal PASSED
+
+AllYourBaseSpec > Hexadecimal to trinary PASSED
+
+AllYourBaseSpec > 15-bit integer PASSED
+
+AllYourBaseSpec > Empty list PASSED
+
+AllYourBaseSpec > Single zero PASSED
+
+AllYourBaseSpec > Multiple zeros PASSED
+
+AllYourBaseSpec > Leading zeros PASSED
+
+AllYourBaseSpec > Input base is one PASSED
+
+AllYourBaseSpec > Input base is zero PASSED
+
+AllYourBaseSpec > Input base is negative PASSED
+
+AllYourBaseSpec > Negative digit PASSED
+
+AllYourBaseSpec > Invalid positive digit PASSED
+
+AllYourBaseSpec > Output base is one PASSED
+
+AllYourBaseSpec > Output base is zero PASSED
+
+AllYourBaseSpec > Output base is negative PASSED
+
+AllYourBaseSpec > Both bases are negative PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 7.241 secs
