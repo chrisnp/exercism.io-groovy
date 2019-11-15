@@ -1,0 +1,25 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+AccumulateSpec > Empty collection returns empty collection PASSED
+
+AccumulateSpec > Squares PASSED
+
+AccumulateSpec > UpperCases PASSED
+
+AccumulateSpec > Reverse PASSED
+
+AccumulateSpec > Different return type PASSED
+
+AccumulateSpec > Accumulate within accumulate PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 8.973 secs
