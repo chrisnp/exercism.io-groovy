@@ -1,0 +1,29 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+HighScoresSpec > List of scores PASSED
+
+HighScoresSpec > Latest score PASSED
+
+HighScoresSpec > Personal best PASSED
+
+HighScoresSpec > Top 3 scores PASSED
+
+HighScoresSpec > Personal top highest to lowest PASSED
+
+HighScoresSpec > Personal top when there is a tie PASSED
+
+HighScoresSpec > Personal top when there are less than 3 PASSED
+
+HighScoresSpec > Personal top when there is only one PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 9.007 secs
