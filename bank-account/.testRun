@@ -126,4 +126,4 @@ BankAccountSpec > Can adjust balance concurrently PASSED
 
 BUILD SUCCESSFUL
 
-Total time: 13.866 secs
+Total time: 10.624 secs

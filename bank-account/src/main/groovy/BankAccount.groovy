@@ -3,12 +3,12 @@ class BankAccount {
     private boolean open
     int balance
 
-    private void notClosed() {
+    private void ifNotClosed() {
         if (!open)
             throw new Exception("Account is closed")
     }
 
-    private void notNegative(amount) {
+    private void andNotNegative(amount) {
         if (amount < 0)
             throw new Exception("Don't be silly")
     }
@@ -30,8 +30,8 @@ class BankAccount {
     // you cannot deposit into a closed account
     // you cannot deposit a negative amount 
     synchronized void deposit(int amount) {
-        notClosed()
-        notNegative(amount)
+        ifNotClosed()
+        andNotNegative(amount)
         balance += amount
     }
 
@@ -40,8 +40,8 @@ class BankAccount {
     // you cannot withdraw a negative amount 
     // you cannot withdraw more than the balance
     synchronized void withdraw(int amount) {
-        notClosed()
-        notNegative(amount) 
+        ifNotClosed()
+        andNotNegative(amount) 
         if (amount > balance) 
             throw new Exception("Amount requested exceeds balance")
         balance -= amount
@@ -49,7 +49,7 @@ class BankAccount {
 
     // returns the current balance
     synchronized int getBalance() {
-        notClosed()
+        ifNotClosed()
         balance
     }
 }
