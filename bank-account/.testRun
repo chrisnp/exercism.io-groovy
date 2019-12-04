@@ -127,3 +127,48 @@ BankAccountSpec > Can adjust balance concurrently PASSED
 BUILD SUCCESSFUL
 
 Total time: 10.624 secs
+
+
+
+Starting a Gradle Daemon, 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+BankAccountSpec > Newly opened account has empty balance PASSED
+
+BankAccountSpec > Can deposit money PASSED
+
+BankAccountSpec > Can deposit money sequentially PASSED
+
+BankAccountSpec > Can withdraw money PASSED
+
+BankAccountSpec > Can withdraw money sequentially PASSED
+
+BankAccountSpec > Cannot withdraw money from empty account PASSED
+
+BankAccountSpec > Cannot withdraw more money than you have PASSED
+
+BankAccountSpec > Cannot deposit negative amount PASSED
+
+BankAccountSpec > Cannot withdraw negative amount PASSED
+
+BankAccountSpec > Cannot get balance of closed account PASSED
+
+BankAccountSpec > Cannot deposit money into closed account PASSED
+
+BankAccountSpec > Cannot withdraw money from closed account PASSED
+
+BankAccountSpec > Bank account is closed before it is opened PASSED
+
+BankAccountSpec > Can adjust balance concurrently PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 13.746 secs

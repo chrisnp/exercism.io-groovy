@@ -1,5 +1,6 @@
 cleanup.*
 .gradle/
+gradle/
 /*/.gradle/
 /*/build/
 /*/bin/
