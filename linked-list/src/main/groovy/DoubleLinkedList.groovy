@@ -1,54 +1,51 @@
 class DoubleLinkedList<T> {
 
-    Node<T> root
+    private T value
+    private DoubleLinkedList<T> prev
+    private DoubleLinkedList<T> next
+
+    DoubleLinkedList() {
+        this.value = this.prev = this.next = null
+    }
+
+    DoubleLinkedList(T value, 
+                     DoubleLinkedList<T> prev, 
+                     DoubleLinkedList<T> next) {
+        this.value = value
+        this.prev  = prev
+        this.next  = next
+    }
 
     void push(T value) {
-        if (!root) {
-            root = new Node(value, null, null)
-            root.prevNode = root
-            root.nextNode = root
-            return
+        if (next) {
+            next.push(value)
         }
-        Node last = new Node(value, root.prevNode, root)
-        root.prevNode.nextNode = last
-        root.prevNode = last
+        else {
+            next = new DoubleLinkedList<T>(value, this, null)
+        }
     }
 
     T pop() {
-        root = root.prevNode
-        shift()
+        if (next)
+            return next.pop()
+        prev.next = null
+        this.value
     }
 
     T shift() {
-        T stored = root.payload
-        if (root.nextNode == null) {
-            root = null
-        } 
-        else {
-            root.nextNode.prevNode = root.prevNode
-            root.prevNode.nextNode = root.nextNode
-            root = root.nextNode
+        if (next) {
+            this.value = next.value
+            next = next.next
         }
-        stored
+        this.value
     }
 
-    void unshift(T value) {
-        push(value)
-        root = root.prevNode
-    }
-
-    private static class Node<T> {
-        final T payload
-        Node<T> prevNode, nextNode
-
-        Node() {
-            payload = prevNode = nextNode = null
-        }
-
-        Node(T value, Node prev, Node next) {
-            payload = value
-            prevNode = prev
-            nextNode = next
-        }
-    }
+     void unshift(T value) {
+         DoubleLinkedList node = new DoubleLinkedList<T>(value, this, next)
+         if (next) {
+             next.prev = node
+             node.next = next
+         }
+         next = node
+     }
 }
