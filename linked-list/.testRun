@@ -21,3 +21,30 @@ DoubleLinkedListSpec > Complete example PASSED
 BUILD SUCCESSFUL
 
 Total time: 8.814 secs
+
+
+
+
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+DoubleLinkedListSpec > Can push and pop PASSED
+
+DoubleLinkedListSpec > Can push and shift PASSED
+
+DoubleLinkedListSpec > Can unshift an shift PASSED
+
+DoubleLinkedListSpec > Can unshift and pop PASSED
+
+DoubleLinkedListSpec > Complete example PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 10.798 secs
