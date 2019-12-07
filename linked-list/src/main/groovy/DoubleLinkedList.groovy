@@ -17,12 +17,10 @@ class DoubleLinkedList<T> {
     }
 
     void push(T value) {
-        if (next) {
+        if (next)
             next.push(value)
-        }
-        else {
+        else
             next = new DoubleLinkedList<T>(value, this, null)
-        }
     }
 
     T pop() {
@@ -41,7 +39,8 @@ class DoubleLinkedList<T> {
     }
 
      void unshift(T value) {
-         DoubleLinkedList node = new DoubleLinkedList<T>(value, this, next)
+         DoubleLinkedList node = 
+            new DoubleLinkedList<T>(value, this, next)
          if (next) {
              next.prev = node
              node.next = next
