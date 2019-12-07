@@ -1,0 +1,33 @@
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+StrainSpec > Keep returns empty collection PASSED
+
+StrainSpec > Keep all even numbers PASSED
+
+StrainSpec > Keep all odd numbers PASSED
+
+StrainSpec > Keep all everything under 10 PASSED
+
+StrainSpec > Keep String that start with 'z' PASSED
+
+StrainSpec > Discard returns empty collection PASSED
+
+StrainSpec > Discard all even numbers PASSED
+
+StrainSpec > Discard all odd numbers PASSED
+
+StrainSpec > Discard all everything under 10 PASSED
+
+StrainSpec > Discard String that start with 'z' PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 8.226 secs
