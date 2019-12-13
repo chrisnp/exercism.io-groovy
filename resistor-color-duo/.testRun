@@ -19,3 +19,29 @@ ResistorColorDuoSpec > Orange and orange PASSED
 BUILD SUCCESSFUL
 
 Total time: 12.475 secs
+
+
+
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources NO-SOURCE
+:classes
+:compileTestJava NO-SOURCE
+:compileTestGroovy
+:processTestResources NO-SOURCE
+:testClasses
+:test
+
+ResistorColorDuoSpec > Brown and black PASSED
+
+ResistorColorDuoSpec > Blue and grey PASSED
+
+ResistorColorDuoSpec > Yellow and violet PASSED
+
+ResistorColorDuoSpec > Orange and orange PASSED
+
+ResistorColorDuoSpec > Ignore additional colors PASSED
+
+BUILD SUCCESSFUL
+
+Total time: 14.414 secs
