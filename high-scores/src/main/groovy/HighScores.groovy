@@ -15,7 +15,8 @@ class HighScores {
     }
 
     List<Integer> personalTopThree() {
-        scores.sort() { a, b -> b.compareTo(a) }
+        scores.collect()
+              .sort() { a, b -> b.compareTo(a) }
               .take(3)
     }
 }
