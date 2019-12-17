@@ -19,3 +19,19 @@ ResistorColorSpec > Colors PASSED
 BUILD SUCCESSFUL
 
 Total time: 1 mins 35.26 secs
+
+
+
+:compileJava NO-SOURCE
+:compileGroovy UP-TO-DATE
+:processResources NO-SOURCE
+:classes UP-TO-DATE
+:compileTestJava NO-SOURCE
+:compileTestGroovy UP-TO-DATE
+:processTestResources NO-SOURCE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 2.427 secs
