@@ -19,7 +19,7 @@ TwoFerSpec > Bob given as name PASSED
 BUILD SUCCESSFUL
 
 Total time: 9.102 secs
-
+==========================================
 
 :compileJava NO-SOURCE
 :compileGroovy
@@ -42,3 +42,30 @@ TwoFerSpec > Bob given as name PASSED
 BUILD SUCCESSFUL
 
 Total time: 7.72 secs
+===========================================
+
+
+> .\gradlew test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+TwoFerSpec > No name given PASSED
+
+TwoFerSpec > Empty name given PASSED
+
+TwoFerSpec > A name given PASSED
+
+TwoFerSpec > Another name given PASSED
+
+BUILD SUCCESSFUL in 7s
+3 actionable tasks: 3 executed
+==============================================
