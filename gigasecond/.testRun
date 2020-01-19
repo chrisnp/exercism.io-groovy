@@ -21,3 +21,33 @@ GigasecondSpec > Full time with day roll-over PASSED
 BUILD SUCCESSFUL
 
 Total time: 8.308 secs
+=========================================================================
+
+
+
+> .\gradlew test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+GigasecondSpec > Date only specification of time PASSED
+
+GigasecondSpec > Second test for date only specification of time PASSED
+
+GigasecondSpec > Third test for date only specification of time PASSED
+
+GigasecondSpec > Full time specified PASSED
+
+GigasecondSpec > Full time with day roll-over PASSED
+
+BUILD SUCCESSFUL in 8s
+3 actionable tasks: 3 executed
+==========================================================================
