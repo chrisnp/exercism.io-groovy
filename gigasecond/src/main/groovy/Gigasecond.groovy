@@ -6,10 +6,12 @@ class Gigasecond {
     static final Integer GIGASECOND = 1E09
 
     static LocalDateTime add(LocalDate date) {
-        date.atStartOfDay().plusSeconds(GIGASECOND)
+        
+        add(date.atStartOfDay())
     }
 
     static LocalDateTime add(LocalDateTime time) {
+        
         time.plusSeconds(GIGASECOND)
     }
 
