@@ -1,0 +1,47 @@
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+MatchingBracketsSpec > Paired square brackets PASSED
+
+MatchingBracketsSpec > Empty string PASSED
+
+MatchingBracketsSpec > Unpaired brackets PASSED
+
+MatchingBracketsSpec > Wrong ordered brackets PASSED
+
+MatchingBracketsSpec > Wrong closing bracket PASSED
+
+MatchingBracketsSpec > Paired with whitespace PASSED
+
+MatchingBracketsSpec > Partially paired brackets PASSED
+
+MatchingBracketsSpec > Simple nested brackets PASSED
+
+MatchingBracketsSpec > Several paired brackets PASSED
+
+MatchingBracketsSpec > Paired and nested brackets PASSED
+
+MatchingBracketsSpec > Unopened closing brackets PASSED
+
+MatchingBracketsSpec > Unpaired and nested brackets PASSED
+
+MatchingBracketsSpec > Paired and wrong nested brackets PASSED
+
+MatchingBracketsSpec > Paired and incomplete brackets PASSED
+
+MatchingBracketsSpec > Too many closing brackets PASSED
+
+MatchingBracketsSpec > Math expression PASSED
+
+MatchingBracketsSpec > Complex latex expression PASSED
+
+BUILD SUCCESSFUL in 7s
+3 actionable tasks: 3 executed
