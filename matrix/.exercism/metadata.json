@@ -1,9 +1,9 @@
 {
-    "track": "groovy",
-    "exercise": "matrix",
-    "id": "d3ceebce08c24339956ea9b097198a5d",
-    "url": "https://exercism.io/tracks/groovy/exercises/matrix/solutions/d3ceebce08c24339956ea9b097198a5d",
-    "handle": "heptalophos",
-    "is_requester": true,
-    "auto_approve": false
+  "track": "groovy",
+  "exercise": "matrix",
+  "id": "d3ceebce08c24339956ea9b097198a5d",
+  "url": "https://exercism.io/tracks/groovy/exercises/matrix/solutions/d3ceebce08c24339956ea9b097198a5d",
+  "handle": "heptalophos",
+  "is_requester": true,
+  "auto_approve": false
 }
