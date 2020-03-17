@@ -27,3 +27,20 @@ MatrixSpec > Extract column where numbers have different widths PASSED
 BUILD SUCCESSFUL
 
 Total time: 7.395 secs
+
+
+
+>.\gradlew.bat test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+> Task :test
+
+BUILD SUCCESSFUL in 41s
+3 actionable tasks: 3 executed
