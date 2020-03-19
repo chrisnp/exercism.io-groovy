@@ -35,3 +35,21 @@ WordCountSpec > Alternating word separators not detected as a word PASSED
 BUILD SUCCESSFUL
 
 Total time: 7.699 secs
+
+
+
+>gradle test
+
+:compileJava NO-SOURCE
+:compileGroovy UP-TO-DATE
+:processResources NO-SOURCE
+:classes UP-TO-DATE
+:compileTestJava NO-SOURCE
+:compileTestGroovy UP-TO-DATE
+:processTestResources NO-SOURCE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 3.257 secs
