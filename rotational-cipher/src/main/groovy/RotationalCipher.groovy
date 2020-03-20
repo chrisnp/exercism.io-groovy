@@ -8,7 +8,8 @@ class RotationalCipher {
 
     private char rot(char ch, int key, int rotation) {
         char base = ch.isLowerCase() ? 
-                    'a' as char : 'A' as char
+                    'a' as char : 
+                    'A' as char
         (ch - base + key) % rotation + base
     }
 
@@ -16,7 +17,8 @@ class RotationalCipher {
         cipherText.toList()
                   .collect { s -> s as char }
                   .collect { ch -> ch.isLetter() ? 
-                                   rot(ch, key, 26) : ch }
+                                   rot(ch, key, 26) : 
+                                   ch }
                   .join()
     }
 }
