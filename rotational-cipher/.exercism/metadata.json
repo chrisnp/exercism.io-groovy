@@ -1,9 +1,9 @@
 {
-    "track": "groovy",
-    "exercise": "rotational-cipher",
-    "id": "a2c2db626395465b8248a500a2ee0a67",
-    "url": "https://exercism.io/tracks/groovy/exercises/rotational-cipher/solutions/a2c2db626395465b8248a500a2ee0a67",
-    "handle": "heptalophos",
-    "is_requester": true,
-    "auto_approve": false
+  "track": "groovy",
+  "exercise": "rotational-cipher",
+  "id": "a2c2db626395465b8248a500a2ee0a67",
+  "url": "https://exercism.io/tracks/groovy/exercises/rotational-cipher/solutions/a2c2db626395465b8248a500a2ee0a67",
+  "handle": "heptalophos",
+  "is_requester": true,
+  "auto_approve": false
 }

@@ -1,3 +1,5 @@
+>gradle test
+
 :compileJava NO-SOURCE
 :compileGroovy
 :processResources NO-SOURCE

@@ -1,9 +1,9 @@
 {
-    "track": "groovy",
-    "exercise": "word-count",
-    "id": "9b0e0cfa19fa42cf81155244810a383b",
-    "url": "https://exercism.io/tracks/groovy/exercises/word-count/solutions/9b0e0cfa19fa42cf81155244810a383b",
-    "handle": "heptalophos",
-    "is_requester": true,
-    "auto_approve": false
+  "track": "groovy",
+  "exercise": "word-count",
+  "id": "9b0e0cfa19fa42cf81155244810a383b",
+  "url": "https://exercism.io/tracks/groovy/exercises/word-count/solutions/9b0e0cfa19fa42cf81155244810a383b",
+  "handle": "heptalophos",
+  "is_requester": true,
+  "auto_approve": false
 }

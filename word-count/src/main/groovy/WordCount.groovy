@@ -2,13 +2,14 @@ class WordCount {
 
     private final String phrase
 
-    WordCount(s) {
+    WordCount(sentence) {
         this.phrase = 
-            s.replaceAll(/([^A-Za-z0-9']|\B'|'\B)/, ' ')
-             .toLowerCase()
+            sentence
+            .replaceAll(/([^A-Za-z0-9']|\B'|'\B)/, ' ')
+            .toLowerCase()
     }
 
-    def wordCount() {
+    def countWords() {
         phrase.findAll(/[\w']+/)
               .inject([:], {map, w -> 
                   if (w) map[w] = map[w] ?
