@@ -1,33 +1,36 @@
 class Triangle {
 
-    static boolean validTriangle(Number a, b, c) {
+    boolean validTriangle = true
+    int uniqSideLengths
+
+    Triangle(Number...sides) {
+        sides = sides.toList()
+
         boolean triangleInequality = 
-            2 * [a, b, c].max() <= a + b + c 
+            2 * sides.max() <= sides.sum()
+        
         boolean degenerate = 
-            [a, b, c].any { s -> s <= 0 }
-        triangleInequality && !degenerate
-    }
-
-    static int uniqSideLengths(Number a, b, c) {
-
-        ([a, b, c] as Set).size()
-    }
-
-    static boolean isEquilateral(Number a, b, c) {
+            sides.any { s -> s <= 0 }
         
-        validTriangle(a, b, c) && 
-        uniqSideLengths(a, b, c) == 1
-    }
-
-    static boolean isIsosceles(Number a, b, c) {
-
-        validTriangle(a, b, c) && 
-        uniqSideLengths(a, b, c) <= 2
-    }
-
-    static boolean isScalene(Number a, b, c) {
+        this.validTriangle =
+            triangleInequality && !degenerate
         
-        validTriangle(a, b, c) && 
-        uniqSideLengths(a, b, c) == 3
+        this.uniqSideLengths = 
+            (sides as Set).size()
+    }
+
+    boolean isEquilateral() {
+        validTriangle && 
+        uniqSideLengths == 1
+    }
+
+    boolean isIsosceles() {
+        validTriangle && 
+        uniqSideLengths <= 2
+    }
+
+    boolean isScalene() {
+        validTriangle && 
+        uniqSideLengths == 3
     }
 }
