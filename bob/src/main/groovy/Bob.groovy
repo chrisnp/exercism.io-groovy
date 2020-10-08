@@ -4,26 +4,26 @@ class Bob {
         input.trim() == ''
     }
 
+    private static boolean yell(String input) {
+        input = input.trim()
+        (input == input.toUpperCase()) ? 
+        input != input.toLowerCase()   : 
+        false
+    }
+
     private static boolean question(String input) {
         input.trim().endsWith('?')
     }
 
-    private static boolean yell(String input) {
-        input = input.trim()
-        (input == input.toUpperCase()) ? 
-          input != input.toLowerCase() : 
-          false
-    }
-
-    public static String response(String input) {
+    public static response(String input) {
+        if (silence(input)) 
+            return "Fine. Be that way!"
         if (yell(input) && question(input))
             return "Calm down, I know what I'm doing!"
         if (yell(input))
             return "Whoa, chill out!"
         if (question(input))
             return "Sure."
-        if (silence(input)) 
-            return "Fine. Be that way!"
         "Whatever."
     }
 
