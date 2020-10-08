@@ -14,7 +14,7 @@ class Triangle {
         
         this.validTriangle =
             triangleInequality && 
-            !degenerate
+	    !degenerate
         
         this.uniqSideLengths = 
             (sides as Set).size()
