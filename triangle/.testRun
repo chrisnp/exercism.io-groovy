@@ -107,3 +107,59 @@ TriangleSpec > Sides may be floats for scalene PASSED
 
 BUILD SUCCESSFUL in 14s
 3 actionable tasks: 3 executed
+
+
+
+>gradle test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+TriangleSpec > All sides are equal for equilateral PASSED
+
+TriangleSpec > Any side is unequal PASSED
+
+TriangleSpec > No sides are equal for equilateral PASSED
+
+TriangleSpec > All zero sides is not a triangle PASSED
+
+TriangleSpec > Sides may be floats for equilateral PASSED
+
+TriangleSpec > Last two sides are equal PASSED
+
+TriangleSpec > First two sides are equal PASSED
+
+TriangleSpec > First and last sides are equal PASSED
+
+TriangleSpec > Equilateral triangles are also isosceles PASSED
+
+TriangleSpec > No sides are equal for isosceles PASSED
+
+TriangleSpec > First triangle inequality violation PASSED
+
+TriangleSpec > Second triangle inequality violation PASSED
+
+TriangleSpec > Third triangle inequality violation PASSED
+
+TriangleSpec > Sides may be floats for isosceles PASSED
+
+TriangleSpec > No sides are equal for scalene PASSED
+
+TriangleSpec > All sides are equal for scalene PASSED
+
+TriangleSpec > Two sides are equal PASSED
+
+TriangleSpec > May not violate triangle inequality PASSED
+
+TriangleSpec > Sides may be floats for scalene PASSED
+
+BUILD SUCCESSFUL in 17s
+3 actionable tasks: 3 executed
