@@ -7,10 +7,15 @@ class Leap {
         this.year = year
     }
 
-    boolean divisibleBy(int x) { year % x == 0 }
+    boolean divisibleBy(int x) { 
+        
+        year % x == 0 
+    }
 
     boolean isLeapYear() {
 
-        divisibleBy(100) ? divisibleBy(400) : divisibleBy(4)
+        divisibleBy(100) ? 
+        divisibleBy(400) : 
+        divisibleBy(4)
     }
 }
