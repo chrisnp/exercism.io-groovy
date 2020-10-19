@@ -1,9 +1,1 @@
-{
-    "track": "groovy",
-    "exercise": "isbn-verifier",
-    "id": "05135b8438014fa19125fe67b6feb7f8",
-    "url": "https://exercism.io/tracks/groovy/exercises/isbn-verifier/solutions/05135b8438014fa19125fe67b6feb7f8",
-    "handle": "heptalophos",
-    "is_requester": true,
-    "auto_approve": false
-}
+{"track":"groovy","exercise":"isbn-verifier","id":"05135b8438014fa19125fe67b6feb7f8","url":"https://exercism.io/my/solutions/05135b8438014fa19125fe67b6feb7f8","handle":"heptalophos","is_requester":true,"auto_approve":false}
