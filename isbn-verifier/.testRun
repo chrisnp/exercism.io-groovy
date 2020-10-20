@@ -95,3 +95,55 @@ IsbnVerifierSpec > Input is too long but contains a valid isbn PASSED
 BUILD SUCCESSFUL
 
 Total time: 10.368 secs
+
+
+
+>gradlew test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+IsbnVerifierSpec > Valid isbn number PASSED
+
+IsbnVerifierSpec > Invalid isbn check digit PASSED
+
+IsbnVerifierSpec > Valid isbn number with a check digit of 10 PASSED
+
+IsbnVerifierSpec > Check digit is a character other than X PASSED
+
+IsbnVerifierSpec > Invalid character in isbn PASSED
+
+IsbnVerifierSpec > X is only valid as a check digit PASSED
+
+IsbnVerifierSpec > Valid isbn without separating dashes PASSED
+
+IsbnVerifierSpec > Isbn without separating dashes and X as check digit PASSED
+
+IsbnVerifierSpec > Isbn without check digit and dashes PASSED
+
+IsbnVerifierSpec > Too long isbn and no dashes PASSED
+
+IsbnVerifierSpec > Too short isbn PASSED
+
+IsbnVerifierSpec > Isbn without check digit PASSED
+
+IsbnVerifierSpec > Check digit of X should not be used for 0 PASSED
+
+IsbnVerifierSpec > Empty isbn PASSED
+
+IsbnVerifierSpec > Input is 9 characters PASSED
+
+IsbnVerifierSpec > Invalid characters are not ignored PASSED
+
+IsbnVerifierSpec > Input is too long but contains a valid isbn PASSED
+
+BUILD SUCCESSFUL in 13s
+3 actionable tasks: 3 executed
