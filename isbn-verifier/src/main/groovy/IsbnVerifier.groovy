@@ -15,7 +15,9 @@ class IsbnVerifier {
             normal.substring(normal.length() - 1)
 
         List<Integer> digits = 
-            normal.take(9).collect { d -> d as int }
+            normal
+            .take(9)
+            .collect { d -> d as int }
 
         [10..1, [*digits, checkDig == 'X' ? 
                           10 : checkDig as int]]
