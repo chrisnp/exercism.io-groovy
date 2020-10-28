@@ -4,10 +4,12 @@ class RobotName {
     private static Random random
     private static usedNames = []
     private static final int AllNames = 26^2 * 10^3
+    private static final String error = 
+                "All possible names are being used"
 
     RobotName() {
         if (usedNames.size() >= AllNames)
-            throw new Exception("All possible names are being used")
+            throw new Exception(error)
         random = new Random()
         reset()
         usedNames << name
@@ -21,10 +23,13 @@ class RobotName {
     }
 
     private String generateName() {
-        String letters = (1..2).collect { ("A".."Z")[random.nextInt(26)] }
-                               .join('') 
-        String numbers = (1..3).collect { random.nextInt(10) }
-                               .join('')
+        String letters = (1..2)
+                         .collect { ("A".."Z")[random
+                                               .nextInt(26)] }
+                         .join('') 
+        String numbers = (1..3)
+                         .collect { random.nextInt(10) }
+                         .join('')
         letters + numbers
     }
 }
