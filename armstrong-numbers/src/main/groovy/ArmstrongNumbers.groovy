@@ -4,6 +4,7 @@ class ArmstrongNumber {
         
         def numDigits = "$number".length()
         
-        "$number".collect {d -> d.toInteger() ** numDigits}.sum() == number  
+        "$number".collect {d -> d.toInteger() ** numDigits}
+                 .sum() == number  
     }
 }

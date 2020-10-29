@@ -3,22 +3,30 @@ class BankAccount {
     private boolean open
     int balance
 
+    private static final String ERR_NOT_CLOSED = 
+            "Account is closed"
+    private static final String ERR_NOT_NEG = 
+            "Don't be silly"
+    private static final String ERR_EXCEEDS = 
+            "Amount requested exceeds balance"
+
     private void ifNotClosed() {
         if (!open)
-            throw new Exception("Account is closed")
+            throw new Exception(ERR_NOT_CLOSED)
     }
 
     private void andNotNegative(amount) {
         if (amount < 0)
-            throw new Exception("Don't be silly")
+            throw new Exception(ERR_NOT_NEG)
     }
 
     private void andAlsoReasonable(amount) {
         if (amount > balance) 
-            throw new Exception("Amount requested exceeds balance")
+            throw new Exception(ERR_EXCEEDS)
     }
 
-    // You cannot do any operations before you open the account.
+    // You cannot do any operations before you open 
+    // the account.
     // An account opens with a balance of 0
     // You can reopen an account
     void open() {
@@ -26,7 +34,8 @@ class BankAccount {
         open = true
     }
 
-    // you cannot do any operations after you close the account
+    // you cannot do any operations after you close 
+    // the account
     void close() {
         open = false
     }

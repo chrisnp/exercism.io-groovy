@@ -172,3 +172,53 @@ BankAccountSpec > Can adjust balance concurrently PASSED
 BUILD SUCCESSFUL
 
 Total time: 13.746 secs
+
+
+
+>gradle test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+BankAccountSpec > Newly opened account has empty balance PASSED
+
+BankAccountSpec > Can deposit money PASSED
+
+BankAccountSpec > Can deposit money sequentially PASSED
+
+BankAccountSpec > Can withdraw money PASSED
+
+BankAccountSpec > Can withdraw money sequentially PASSED
+
+BankAccountSpec > Cannot withdraw money from empty account PASSED
+
+BankAccountSpec > Cannot withdraw more money than you have PASSED
+
+BankAccountSpec > Cannot deposit negative amount PASSED
+
+BankAccountSpec > Cannot withdraw negative amount PASSED
+
+BankAccountSpec > Cannot get balance of closed account PASSED
+
+BankAccountSpec > Cannot deposit money into closed account PASSED
+
+BankAccountSpec > Cannot withdraw money from closed account PASSED
+
+BankAccountSpec > Bank account is closed before it is opened PASSED
+
+BankAccountSpec > Can adjust balance concurrently PASSED
+
+Deprecated Gradle features were used in this build, 
+making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+
+BUILD SUCCESSFUL in 22s
+3 actionable tasks: 3 executed

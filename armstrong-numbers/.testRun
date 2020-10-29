@@ -63,3 +63,43 @@ ArmstrongNumbersSpec > Seven digit number that is not an Armstrong number PASSED
 BUILD SUCCESSFUL
 
 Total time: 13.048 secs
+
+
+
+>gradle test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ArmstrongNumbersSpec > Zero is an Armstrong number PASSED
+
+ArmstrongNumbersSpec > Single digit numbers are Armstrong numbers PASSED
+
+ArmstrongNumbersSpec > There are no 2 digit Armstrong numbers PASSED
+
+ArmstrongNumbersSpec > Three digit number that is an Armstrong number PASSED
+
+ArmstrongNumbersSpec > Three digit number that is not an Armstrong number PASSED
+
+ArmstrongNumbersSpec > Four digit number that is an Armstrong number PASSED
+
+ArmstrongNumbersSpec > Four digit number that is not an Armstrong number PASSED
+
+ArmstrongNumbersSpec > Seven digit number that is an Armstrong number PASSED
+
+ArmstrongNumbersSpec > Seven digit number that is not an Armstrong number PASSED
+
+Deprecated Gradle features were used in this build, 
+making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+
+BUILD SUCCESSFUL in 18s
+3 actionable tasks: 3 executed
