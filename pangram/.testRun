@@ -31,3 +31,41 @@ PangramSpec > Upper and lower case versions of the same character should not be 
 BUILD SUCCESSFUL
 
 Total time: 8.955 secs
+
+
+
+>gradle test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+PangramSpec > Empty sentence PASSED
+
+PangramSpec > Perfect lower case PASSED
+
+PangramSpec > Only lower case PASSED
+
+PangramSpec > Missing the letter 'x' PASSED
+
+PangramSpec > Missing the letter 'h' PASSED
+
+PangramSpec > With underscores PASSED
+
+PangramSpec > With numbers PASSED
+
+PangramSpec > Missing letters replaced by numbers PASSED
+
+PangramSpec > Mixed case and punctuation PASSED
+
+PangramSpec > Case insensitive PASSED
+
+BUILD SUCCESSFUL in 18s
+3 actionable tasks: 3 executed
