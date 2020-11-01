@@ -5,7 +5,8 @@ class Pangram {
         if (sentence != "") {
 
             for (String letter : ('a'..'z')) {
-                if (!sentence.toLowerCase().contains(letter)) 
+                if (!sentence.toLowerCase()
+                             .contains(letter)) 
                     return false
             }
             return true
