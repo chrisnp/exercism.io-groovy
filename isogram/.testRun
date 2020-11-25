@@ -79,3 +79,47 @@ IsogramSpec > Same first and last characters PASSED
 
 BUILD SUCCESSFUL in 16s
 3 actionable tasks: 3 executed
+
+
+
+>gradle test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+IsogramSpec > Empty string PASSED
+
+IsogramSpec > Isogram with only lower case characters PASSED
+
+IsogramSpec > Word with one duplicated character PASSED
+
+IsogramSpec > Word with one duplicated character from the end of the alphabet PASSED
+
+IsogramSpec > Longest reported english isogram PASSED
+
+IsogramSpec > Word with duplicated character in mixed case PASSED
+
+IsogramSpec > Word with duplicated character in mixed case, lowercase first PASSED
+
+IsogramSpec > Hypothetical isogrammic word with hyphen PASSED
+
+IsogramSpec > Hypothetical word with duplicated character following hyphen PASSED
+
+IsogramSpec > Isogram with duplicated hyphen PASSED
+
+IsogramSpec > Made-up name that is an isogram PASSED
+
+IsogramSpec > Duplicated character in the middle PASSED
+
+IsogramSpec > Same first and last characters PASSED
+
+BUILD SUCCESSFUL in 10s
+3 actionable tasks: 3 executed
