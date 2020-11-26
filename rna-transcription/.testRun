@@ -58,3 +58,33 @@ RnaTranscriptionSpec > Correctly handles partially invalid input PASSED
 BUILD SUCCESSFUL
 
 Total time: 9.163 secs
+
+
+
+>gradle test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+RnaTranscriptionSpec > Empty RNA sequence PASSED
+
+RnaTranscriptionSpec > RNA complement of cytosine is guanine PASSED
+
+RnaTranscriptionSpec > RNA complement of guanine is cytosine PASSED
+
+RnaTranscriptionSpec > RNA complement of thymine is adenine PASSED
+
+RnaTranscriptionSpec > RNA complement of adenine is uracil PASSED
+
+RnaTranscriptionSpec > RNA complement PASSED
+
+BUILD SUCCESSFUL in 9s
+3 actionable tasks: 3 executed

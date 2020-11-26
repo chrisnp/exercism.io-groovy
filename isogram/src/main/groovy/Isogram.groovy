@@ -8,7 +8,8 @@ class Isogram {
                   .findAll{ it.isLetterOrDigit() }
         
         return normalized.size() - 
-               normalized.unique().size() == 0
+               normalized.unique().size() 
+               == 0
 
     }
 

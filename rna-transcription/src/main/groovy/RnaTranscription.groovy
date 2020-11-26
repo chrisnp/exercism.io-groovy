@@ -1,10 +1,12 @@
 class RnaTranscription {
 
-    def ofDNA(strand) {
+    static final ERR = "invalid sequence"
 
-        if ( !(strand ==~ /[ACGT]+/) )
-            throw new IllegalArgumentException("invalid sequence")
+    static String toRna(String strand) {
+
+        if ( strand ==~ /[^ACGT]+/ )
+            throw new IllegalArgumentException(ERR)
             
-        strand.tr("ACGT", "UGCA")
+        strand.tr('ACGT', 'UGCA')
     }
 }
