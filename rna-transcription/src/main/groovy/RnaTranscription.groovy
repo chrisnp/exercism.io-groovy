@@ -2,11 +2,11 @@ class RnaTranscription {
 
     static final ERR = "invalid sequence"
 
-    def toRNA(String strand) {
+    static String toRna(String strand) {
 
-        if ( !(strand ==~ /[ACGT]+/) )
+        if ( strand ==~ /[^ACGT]+/ )
             throw new IllegalArgumentException(ERR)
             
-        strand.tr("ACGT", "UGCA")
+        strand.tr('ACGT', 'UGCA')
     }
 }
