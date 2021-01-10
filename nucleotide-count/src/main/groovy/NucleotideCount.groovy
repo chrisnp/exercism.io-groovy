@@ -1,13 +1,19 @@
 class NucleotideCount {
 
+    static String ERR = 
+            'invalid nucleotide in strand'  
+
     static count(String strand) {
 
         if (!(strand ==~ /[ACGT]*/))
-            throw new ArithmeticException('invalid nucleotide in strand')
+            throw new ArithmeticException(ERR)
 
         def nucleotideCounts = [:]    
         
-        "ACGT".each { nucleotideCounts.put(it, strand.count(it)) }
+        "ACGT".each { 
+            nucleotideCounts.put(it, 
+                                 strand.count(it)) 
+        }
 
         nucleotideCounts
     }
