@@ -29,3 +29,43 @@ HammingSpec > Disallow right empty strand PASSED
 BUILD SUCCESSFUL
 
 Total time: 10.142 secs
+
+
+
+>gradle test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+HammingSpec > Empty strands PASSED
+
+HammingSpec > Single letter identical strands PASSED
+
+HammingSpec > Single letter different strands PASSED
+
+HammingSpec > Long identical strands PASSED
+
+HammingSpec > Long different strands PASSED
+
+HammingSpec > Disallow first strand longer PASSED
+
+HammingSpec > Disallow second strand longer PASSED
+
+HammingSpec > Disallow left empty strand PASSED
+
+HammingSpec > Disallow right empty strand PASSED
+
+Deprecated Gradle features were used in this build, 
+making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+
+BUILD SUCCESSFUL in 12s
+3 actionable tasks: 3 executed
