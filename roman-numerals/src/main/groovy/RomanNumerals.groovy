@@ -1,10 +1,12 @@
 class RomanNumerals {
+    
     RomanNumerals() {
+        
         Integer.metaClass.getRoman = { ->
             
             Collection<String> roman = []
 
-            for ( int arabic = (Integer) delegate; arabic > 0; ) {
+            for (int arabic = (Integer) delegate; arabic > 0;) {
                 switch (arabic) {
                     case { arabic >= 1000 } :
                         roman << "M"
@@ -60,8 +62,8 @@ class RomanNumerals {
                         break
                     default :
                         throw new IllegalArgumentException(
-                            "$arabic cannot be represented as a roman numeral"
-                            )
+                        "$arabic cannot be represented as a roman numeral"
+                        )
                 }
             }
             roman.join('')
