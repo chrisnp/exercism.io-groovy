@@ -2,17 +2,17 @@ import spock.lang.*
 
 class DartsSpec extends Specification {
 
-    def "A dart lands outside the target"() {
+    def "Missed target"() {
         expect:
         Darts.score(x, y) == expected
 
         where:
-        x  | y   || expected
-        -9 | 152 || 0
+        x  | y || expected
+        -9 | 9 || 0
     }
 
-    // @Ignore
-    def "A dart lands just in the border of the target"() {
+    @Ignore
+    def "On the outer circle"() {
         expect:
         Darts.score(x, y) == expected
 
@@ -21,38 +21,18 @@ class DartsSpec extends Specification {
         0 | 10 || 1
     }
 
-    // @Ignore
-    def "A dart lands in the outer circle"() {
+    @Ignore
+    def "On the middle circle"() {
         expect:
         Darts.score(x, y) == expected
 
         where:
-        x | y || expected
-        4 | 4 || 1
+        x  | y || expected
+        -5 | 0 || 5
     }
 
-    // @Ignore
-    def "A dart lands right in the border between outer and middle circles"() {
-        expect:
-        Darts.score(x, y) == expected
-
-        where:
-        x | y || expected
-        5 | 0 || 5
-    }
-
-    // @Ignore
-    def "A dart lands in the middle circle"() {
-        expect:
-        Darts.score(x, y) == expected
-
-        where:
-        x   | y    || expected
-        0.8 | -0.8 || 5
-    }
-
-    // @Ignore
-    def "A dart lands right in the border between middle and inner circles"() {
+    @Ignore
+    def "On the inner circle"() {
         expect:
         Darts.score(x, y) == expected
 
@@ -61,8 +41,18 @@ class DartsSpec extends Specification {
         0 | -1 || 10
     }
 
-    // @Ignore
-    def "A dart lands in the inner circle"() {
+    @Ignore
+    def "Exactly on centre"() {
+        expect:
+        Darts.score(x, y) == expected
+
+        where:
+        x | y || expected
+        0 | 0 || 10
+    }
+
+    @Ignore
+    def "Near the centre"() {
         expect:
         Darts.score(x, y) == expected
 
@@ -71,33 +61,73 @@ class DartsSpec extends Specification {
         -0.1 | -0.1 || 10
     }
 
-    // @Ignore
-    def "A dart whose coordinates sum to > 1 but whose radius to origin is <= 1 is scored in the inner circle"() {
+    @Ignore
+    def "Just within the inner circle"() {
         expect:
         Darts.score(x, y) == expected
 
         where:
         x   | y   || expected
-        0.4 | 0.8 || 10
+        0.7 | 0.7 || 10
     }
 
-    // @Ignore
-    def "A dart whose coordinates sum to > 5 but whose radius to origin is <= 5 is scored in the middle circle"() {
+    @Ignore
+    def "Just outside the inner circle"() {
         expect:
         Darts.score(x, y) == expected
 
         where:
-        x | y || expected
-        2 | 4 || 5
+        x   | y    || expected
+        0.8 | -0.8 || 5
     }
 
-    // @Ignore
-    def "A dart whose coordinates sum to > 10 but whose radius to origin is <= 10 is scored in the outer circle"() {
+    @Ignore
+    def "Just within the middle circle"() {
         expect:
         Darts.score(x, y) == expected
 
         where:
-        x | y || expected
-        4 | 8 || 1
+        x    | y   || expected
+        -3.5 | 3.5 || 5
+    }
+
+    @Ignore
+    def "Just outside the middle circle"() {
+        expect:
+        Darts.score(x, y) == expected
+
+        where:
+        x    | y    || expected
+        -3.6 | -3.6 || 1
+    }
+
+    @Ignore
+    def "Just within the outer circle"() {
+        expect:
+        Darts.score(x, y) == expected
+
+        where:
+        x    | y   || expected
+        -7.0 | 7.0 || 1
+    }
+
+    @Ignore
+    def "Just outside the outer circle"() {
+        expect:
+        Darts.score(x, y) == expected
+
+        where:
+        x   | y    || expected
+        7.1 | -7.1 || 0
+    }
+
+    @Ignore
+    def "Asymmetric position between the inner and middle circles"() {
+        expect:
+        Darts.score(x, y) == expected
+
+        where:
+        x   | y  || expected
+        0.5 | -4 || 5
     }
 }
