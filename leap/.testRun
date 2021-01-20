@@ -57,3 +57,37 @@ LeapSpec > Year divisible by 200, not divisible by 400 in common year PASSED
 
 BUILD SUCCESSFUL in 14s
 3 actionable tasks: 3 executed
+
+
+
+>gradle test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+LeapSpec > Year not divisible by 4 in common year PASSED
+
+LeapSpec > Year divisible by 2, not divisible by 4 in common year PASSED
+
+LeapSpec > Year divisible by 4, not divisible by 100 in leap year PASSED
+
+LeapSpec > Year divisible by 100, not divisible by 400 in common year PASSED
+
+LeapSpec > Year divisible by 100 but not by 3 is still not a leap year PASSED
+
+LeapSpec > Year divisible by 400 in leap year PASSED
+
+LeapSpec > Year divisible by 400 but not by 125 is still a leap year PASSED
+
+LeapSpec > Year divisible by 200, not divisible by 400 in common year PASSED
+
+BUILD SUCCESSFUL in 14s
+3 actionable tasks: 3 executed
