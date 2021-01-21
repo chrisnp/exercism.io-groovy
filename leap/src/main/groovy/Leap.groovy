@@ -3,11 +3,12 @@ class Leap {
     private final int year
 
     Leap(int year) {
-
         this.year = year
     }
 
-    boolean divisibleBy(int x) { year % x == 0 }
+    boolean divisibleBy(int x) { 
+        year % x == 0 
+    }
 
     boolean isLeapYear() {
 
