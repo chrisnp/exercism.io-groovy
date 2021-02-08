@@ -1,0 +1,37 @@
+>gradle test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+GrainsSpec > Square of 1 PASSED
+
+GrainsSpec > Square of 2 PASSED
+
+GrainsSpec > Square of 3 PASSED
+
+GrainsSpec > Square of 4 PASSED
+
+GrainsSpec > Square of 16 PASSED
+
+GrainsSpec > Square of 32 PASSED
+
+GrainsSpec > Square of 64 PASSED
+
+GrainsSpec > Square 0 raises an exception PASSED
+
+GrainsSpec > Negative square raises an exception PASSED
+
+GrainsSpec > Square greater than 64 raises an exception PASSED
+
+GrainsSpec > Test total PASSED
+
+BUILD SUCCESSFUL in 12s
+3 actionable tasks: 3 executed
