@@ -7,7 +7,7 @@ class PhoneNumber {
 
         String number
         String areaCode
-        String xchange 
+        String xChange 
         String subscriber 
 
         def matcher = 
@@ -16,15 +16,15 @@ class PhoneNumber {
         if (matcher) {
             areaCode = 
                 matcher.group(1)
-            xchange = 
+            xChange = 
                 matcher.group(2)
             subscriber = 
                 matcher.group(3)
             number = 
-                "${areaCode}${xchange}${subscriber}"
+                "${areaCode}${xChange}${subscriber}"
         }
         else {
-            throw new Exception()
+            throw new Exception("Check your number")
         }
         number
     }
