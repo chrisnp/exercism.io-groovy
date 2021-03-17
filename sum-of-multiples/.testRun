@@ -43,3 +43,25 @@ SumOfMultiplesSpec > Solutions using include-exclude must extend to cardinality 
 BUILD SUCCESSFUL
 
 Total time: 10.326 secs
+
+
+
+>gradle test
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+> Task :test
+
+Deprecated Gradle features were used in this build, 
+making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+
+BUILD SUCCESSFUL in 31s
+3 actionable tasks: 3 executed
