@@ -1,1 +1,9 @@
-{"track":"groovy","exercise":"luhn","id":"e563d28d1c6c4d06874dfa7d3774d543","url":"https://exercism.io/my/solutions/e563d28d1c6c4d06874dfa7d3774d543","handle":"heptalophos","is_requester":true,"auto_approve":false}
+{
+    "track": "groovy",
+    "exercise": "luhn",
+    "id": "e563d28d1c6c4d06874dfa7d3774d543",
+    "url": "https://exercism.io/tracks/groovy/exercises/luhn/solutions/e563d28d1c6c4d06874dfa7d3774d543",
+    "handle": "heptalophos",
+    "is_requester": true,
+    "auto_approve": false
+}
