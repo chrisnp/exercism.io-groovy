@@ -4,7 +4,7 @@ gradle/
 /*/.gradle/
 /*/build/
 /*/bin/
-/*/string/
+/../string/
 /.vscode/
 /.ionide/
 .project
