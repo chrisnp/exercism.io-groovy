@@ -7,10 +7,14 @@ class Luhn {
 
         value.replaceAll(/ /, '')
              .reverse()
-             .collect { it as int }
+             .collect { x -> x as int }
              .indexed()
-             .collect { i, x -> i % 2 ? 2 * x : x } 
-             .collect { x -> x > 9 ? x - 9 : x }
+             .collect { i, x -> 
+                        i % 2     ?  
+                        x > 4     ? 
+                        2 * x - 9 :
+                        2 * x     : 
+                        x         } 
              .sum() % 10 == 0
     }
 }
