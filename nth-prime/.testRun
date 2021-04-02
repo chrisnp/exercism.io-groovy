@@ -1,0 +1,25 @@
+>gradle test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+NthPrimeSpec > Can calculate the first prime PASSED
+
+NthPrimeSpec > Can calculate the second prime PASSED
+
+NthPrimeSpec > Can calculate the sixth prime PASSED
+
+NthPrimeSpec > Can calculate a big prime PASSED
+
+NthPrimeSpec > Throws exception when asked for the zeroth prime PASSED
+
+BUILD SUCCESSFUL in 26s
+3 actionable tasks: 3 executed
