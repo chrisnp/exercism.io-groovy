@@ -2,30 +2,31 @@ class NthPrime {
 
     static int nth(int n) {
         if (n < 1) 
-            throw new ArithmeticException()
-        
+            throw new ArithmeticException()        
         if (n == 1)
             return 2
-        
-        int count = 1
-        
-        for (int candidate = 3; count <= n; candidate += 2) {
+        int nth = 1
+        int candidate = 3
+        while(nth <= n) {
             if (isPrime(candidate)) {
-                count += 1
+                nth += 1
             }
-            if (count == n) {
+            if (nth == n) {
                 return candidate
             }
+            candidate += 2
         }
     }
 
     private static boolean isPrime(int n) {
         if (n <= 1) return false
         if (n == 2) return true
-        for (int i = 3; i <= Math.sqrt(n).intValue(); i += 2) {
-            if (n % i == 0) {
+        int c = 3
+        while(c <= Math.sqrt(n).intValue()) {
+            if (n % c == 0) {
                 return false
             }
+            c += 2
         }
         return true
     }
