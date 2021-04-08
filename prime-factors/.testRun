@@ -1,0 +1,29 @@
+>gradle test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+PrimeFactorsSpec > No factors PASSED
+
+PrimeFactorsSpec > Prime number PASSED
+
+PrimeFactorsSpec > Square of a prime PASSED
+
+PrimeFactorsSpec > Cube of a prime PASSED
+
+PrimeFactorsSpec > Product of primes and non-primes PASSED
+
+PrimeFactorsSpec > Product of primes PASSED
+
+PrimeFactorsSpec > Factors include a large prime PASSED
+
+BUILD SUCCESSFUL in 16s
+3 actionable tasks: 3 executed
