@@ -5,7 +5,7 @@ class PrimeFactors {
         List<Long> factors = []
         Long candidate = 2
 
-        while (candidate <= Math.sqrt(value)) {
+        while (candidate <= 1 + Math.sqrt(value)) {
             while (value % candidate == 0) {
                 factors << candidate
                 value /= candidate
