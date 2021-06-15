@@ -12,8 +12,9 @@ class AtbashCipher {
                }
               .collect { 
                   k -> ciphermap
-                       .find {
-                            it.key == k}?.value ?: k 
+                       .find { it.key == k }?.
+                              value ?: 
+                              k 
                         }
               .collate(5, true)
               .collect {it.join()}
@@ -27,8 +28,9 @@ class AtbashCipher {
                 }
                .collect { 
                    v -> ciphermap
-                        .find {
-                            it.value == v}?.key ?: v 
+                        .find { it.value == v } ?.
+                               key ?: 
+                               v 
                          }
                .join()   
     }
