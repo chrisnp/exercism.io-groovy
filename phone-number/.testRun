@@ -164,3 +164,57 @@ PhoneNumberSpec > Invalid if exchange code starts with 1 on valid 11-digit numbe
 
 BUILD SUCCESSFUL in 34s
 3 actionable tasks: 3 executed
+
+
+
+>gradle test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+PhoneNumberSpec > Cleans the number PASSED
+
+PhoneNumberSpec > Cleans numbers with dots PASSED
+
+PhoneNumberSpec > Cleans numbers with multiple spaces PASSED
+
+PhoneNumberSpec > Invalid when 9 digits PASSED
+
+PhoneNumberSpec > Invalid when 11 digits does not start with a 1 PASSED
+
+PhoneNumberSpec > Valid when 11 digits and starting with 1 PASSED
+
+PhoneNumberSpec > Valid when 11 digits and starting with 1 even with punctuation PASSED
+
+PhoneNumberSpec > Invalid when more than 11 digits PASSED
+
+PhoneNumberSpec > Invalid with letters PASSED
+
+PhoneNumberSpec > Invalid with punctuations PASSED
+
+PhoneNumberSpec > Invalid if area code starts with 0 PASSED
+
+PhoneNumberSpec > invalid if area code starts with 1 PASSED
+
+PhoneNumberSpec > Invalid if exchange code starts with 0 PASSED
+
+PhoneNumberSpec > Invalid if exchange code starts with 1 PASSED
+
+PhoneNumberSpec > Invalid if area code starts with 0 on valid 11-digit number PASSED
+
+PhoneNumberSpec > Invalid if area code starts with 1 on valid 11-digit number PASSED
+
+PhoneNumberSpec > Invalid if exchange code starts with 0 on valid 11-digit number PASSED
+
+PhoneNumberSpec > Invalid if exchange code starts with 1 on valid 11-digit number PASSED
+
+BUILD SUCCESSFUL in 11s
+3 actionable tasks: 3 executed

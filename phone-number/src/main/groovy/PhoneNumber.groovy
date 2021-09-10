@@ -5,27 +5,22 @@ class PhoneNumber {
      
     static String clean(String input) {
 
-        String number
+        String phoneNumber
         String areaCode
         String xChange 
         String subscriber 
 
-        def matcher = 
-            (input.replaceAll(/\D+/, '') =~ NANP)
+        def matcher = (input.replaceAll(/\D+/, '') =~ NANP)
 
         if (matcher) {
-            areaCode = 
-                matcher.group(1)
-            xChange = 
-                matcher.group(2)
-            subscriber = 
-                matcher.group(3)
-            number = 
-                "${areaCode}${xChange}${subscriber}"
+            areaCode    = matcher.group(1)
+            xChange     = matcher.group(2)
+            subscriber  = matcher.group(3)
+            phoneNumber = "${areaCode}${xChange}${subscriber}"
         }
         else {
             throw new Exception("Check your number")
         }
-        number
+        phoneNumber
     }
 }
