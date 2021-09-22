@@ -10,4 +10,5 @@ string/
 .project
 .classpath
 .settings/
+HELP.md
 .fake
