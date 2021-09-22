@@ -115,3 +115,43 @@ Use '--warning-mode all' to show the individual deprecation warnings.
 
 BUILD SUCCESSFUL in 11s
 3 actionable tasks: 3 executed
+
+
+
+>./gradlew test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+SecretHandshakeSpec > Wink for 1 PASSED
+
+SecretHandshakeSpec > Double blink for 10 PASSED
+
+SecretHandshakeSpec > Close your eyes for 100 PASSED
+
+SecretHandshakeSpec > Jump for 1000 PASSED
+
+SecretHandshakeSpec > Combine two actions PASSED
+
+SecretHandshakeSpec > Reverse two actions PASSED
+
+SecretHandshakeSpec > Reversing one action gives the same action PASSED
+
+SecretHandshakeSpec > Reversing no actions still gives no actions PASSED
+
+SecretHandshakeSpec > All possible actions PASSED
+
+SecretHandshakeSpec > Reverse all possible actions PASSED
+
+SecretHandshakeSpec > Do nothing for zero PASSED
+
+BUILD SUCCESSFUL in 15s
+3 actionable tasks: 3 executed
