@@ -103,3 +103,57 @@ LuhnSpec > Using ascii value for doubled non-digit isn't allowed PASSED
 
 BUILD SUCCESSFUL in 38s
 3 actionable tasks: 3 executed
+
+
+
+>gradle test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+LuhnSpec > Single digit strings can not be valid PASSED
+
+LuhnSpec > A single zero is invalid PASSED
+
+LuhnSpec > A simple valid SIN that remains valid if reversed PASSED
+
+LuhnSpec > A simple valid SIN that becomes invalid if reversed PASSED
+
+LuhnSpec > A valid Canadian SIN PASSED
+
+LuhnSpec > Invalid Canadian SIN PASSED
+
+LuhnSpec > Invalid credit card PASSED
+
+LuhnSpec > Invalid long number with an even remainder PASSED
+
+LuhnSpec > Valid number with an even number of digits PASSED
+
+LuhnSpec > Valid number with an odd number of spaces PASSED
+
+LuhnSpec > Valid strings with a non-digit added at the end become invalid PASSED
+
+LuhnSpec > Valid strings with punctuation included become invalid PASSED
+
+LuhnSpec > Valid strings with symbols included become invalid PASSED
+
+LuhnSpec > Single zero with space is invalid PASSED
+
+LuhnSpec > More than a single zero is valid PASSED
+
+LuhnSpec > Input digit 9 is correctly converted to output digit 9 PASSED
+
+LuhnSpec > Using ascii value for non-doubled non-digit isn't allowed PASSED
+
+LuhnSpec > Using ascii value for doubled non-digit isn't allowed PASSED
+
+BUILD SUCCESSFUL in 14s
+3 actionable tasks: 3 executed
