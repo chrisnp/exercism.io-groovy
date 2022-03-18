@@ -10,7 +10,7 @@ class BinarySearch {
 
     int binarySearch(value, low, high) {
 
-        int mid = (low + high) / 2
+        int mid = (low + high) >> 1
 
         if (data[mid] == value) 
             return mid
