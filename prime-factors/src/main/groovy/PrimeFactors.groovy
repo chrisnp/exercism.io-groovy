@@ -16,8 +16,6 @@ class PrimeFactors {
                 candidate += 2
         }
         
-        value == 1 ? 
-        factors    : 
-        factors << value
+        value == 1 ? factors : factors << value
     }
 }
