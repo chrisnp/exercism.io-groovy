@@ -38,9 +38,5 @@ Total time: 1 mins 59.747 secs
 > Task :testClasses
 > Task :test
 
-Deprecated Gradle features were used in this build, 
-making it incompatible with Gradle 7.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-
-BUILD SUCCESSFUL in 10s
+BUILD SUCCESSFUL in 6s
 3 actionable tasks: 3 executed

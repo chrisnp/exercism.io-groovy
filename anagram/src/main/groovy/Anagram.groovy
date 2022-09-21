@@ -7,8 +7,7 @@ class Anagram {
     }
 
     private String normalForm(String s) {
-        s.toLowerCase().collect()
-                       .sort()
+        s.toLowerCase().collect().sort()
     }
 
     private boolean duplicate(String candidate) {
