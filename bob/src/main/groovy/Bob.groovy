@@ -6,9 +6,9 @@ class Bob {
 
     private static boolean yell(String input) {
         input = input.trim()
-        (input == input.toUpperCase()) ? 
-        input != input.toLowerCase()   : 
-        false
+        input == input.toUpperCase() 
+        ? input != input.toLowerCase()   
+        : false
     }
 
     private static boolean question(String input) {
