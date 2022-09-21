@@ -11,11 +11,9 @@ class CollatzConjecture {
         int nsteps = 0
 
         while (number > 1) {
-            number = 
-                number % 2 == 0 ? 
-                number / 2 : 
-                (3 * number) + 1
-            
+            number = number % 2 == 0 
+                     ? number >> 1 
+                     : 3 * number + 1
             nsteps++
          }
          nsteps
