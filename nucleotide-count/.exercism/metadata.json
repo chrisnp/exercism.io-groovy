@@ -1,9 +1,1 @@
-{
-    "track": "groovy",
-    "exercise": "nucleotide-count",
-    "id": "fa1411d92e46483fa12feea4d4dc271a",
-    "url": "https://exercism.io/tracks/groovy/exercises/nucleotide-count/solutions/fa1411d92e46483fa12feea4d4dc271a",
-    "handle": "heptalophos",
-    "is_requester": true,
-    "auto_approve": false
-}
+{"track":"groovy","exercise":"nucleotide-count","id":"fa1411d92e46483fa12feea4d4dc271a","url":"https://exercism.org/tracks/groovy/exercises/nucleotide-count","handle":"heptalophos","is_requester":true,"auto_approve":false}
