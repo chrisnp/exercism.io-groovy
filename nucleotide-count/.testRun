@@ -53,3 +53,31 @@ Use '--warning-mode all' to show the individual deprecation warnings.
 
 BUILD SUCCESSFUL in 12s
 3 actionable tasks: 3 executed
+
+
+
+>gradlew test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+NucleotideCountSpec > Empty strand PASSED
+
+NucleotideCountSpec > Can count one nucleotide in single-character input PASSED
+
+NucleotideCountSpec > Strand with repeated nucleotide PASSED
+
+NucleotideCountSpec > Strand with multiple nucleotides PASSED
+
+NucleotideCountSpec > Strand with invalid nucleotides PASSED
+
+BUILD SUCCESSFUL in 10s
+3 actionable tasks: 3 executed
