@@ -1,19 +1,11 @@
 class CollatzConjecture {
-
     static int steps(int number) {
-        
         if (number <= 0) {
-            throw new ArithmeticException(
-                "error: neg int or zero"
-            )
+            throw new ArithmeticException("error: neg int or zero")
         }
-
         int nsteps = 0
-
         while (number > 1) {
-            number = number % 2 == 0 
-                     ? number >> 1 
-                     : 3 * number + 1
+            number = number % 2 == 0 ? number >> 1 : 3 * number + 1
             nsteps++
          }
          nsteps
