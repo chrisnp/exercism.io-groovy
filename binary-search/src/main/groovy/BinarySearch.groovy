@@ -1,7 +1,5 @@
 class BinarySearch {
-
     List data
-
     // You may assume for this exercise that the input data 
     // is sorted in ascending order.
     BinarySearch(List data) {
@@ -9,15 +7,9 @@ class BinarySearch {
     }
 
     int binarySearch(value, low, high) {
-
         int mid = (low + high) >> 1
-
-        if (data[mid] == value) 
-            return mid
-
-        if (low >= high ) {
-            return -1
-        }
+        if (data[mid] == value) return mid
+        if (low >= high ) return -1
         else {
             if (data[mid] > value) {
                 return binarySearch(value, low, mid - 1)
@@ -29,11 +21,8 @@ class BinarySearch {
     }
 
     int indexOf(item) {
-        
-        if (!data || item < data[0] 
-            || item > data[data.size() - 1])
+        if (!data || item < data[0] || item > data[data.size() - 1])
             return -1 
-        
         return binarySearch(item, 0, data.size() - 1)
     }
 }
