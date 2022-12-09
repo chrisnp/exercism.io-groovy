@@ -1,9 +1,1 @@
-{
-    "track": "groovy",
-    "exercise": "proverb",
-    "id": "149c0a4a517b4e99a1737a8597ec2e1c",
-    "url": "https://exercism.io/tracks/groovy/exercises/proverb/solutions/149c0a4a517b4e99a1737a8597ec2e1c",
-    "handle": "heptalophos",
-    "is_requester": true,
-    "auto_approve": false
-}
+{"track":"groovy","exercise":"proverb","id":"149c0a4a517b4e99a1737a8597ec2e1c","url":"https://exercism.org/tracks/groovy/exercises/proverb","handle":"heptalophos","is_requester":true,"auto_approve":false}
