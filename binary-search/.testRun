@@ -36,66 +36,6 @@ Total time: 8.762 secs
 
 
 
-:compileJava NO-SOURCE
-:compileGroovy UP-TO-DATE
-:processResources NO-SOURCE
-:classes UP-TO-DATE
-:compileTestJava NO-SOURCE
-:compileTestGroovy UP-TO-DATE
-:processTestResources NO-SOURCE
-:testClasses UP-TO-DATE
-:test UP-TO-DATE
-
-BUILD SUCCESSFUL
-
-Total time: 2.114 secs
-
-
-
->gradle test
-
-> Task :compileJava NO-SOURCE
-> Task :compileGroovy
-> Task :processResources NO-SOURCE
-> Task :classes
-> Task :compileTestJava NO-SOURCE
-> Task :compileTestGroovy
-> Task :processTestResources NO-SOURCE
-> Task :testClasses
-
-> Task :test
-
-BinarySearchSpec > Finds a value in an array with one element PASSED
-
-BinarySearchSpec > Finds a value in the middle of an array PASSED
-
-BinarySearchSpec > Finds a value at the beginning of an array PASSED
-
-BinarySearchSpec > Finds a value at the end of an array PASSED
-
-BinarySearchSpec > Finds a value in an array of odd length PASSED
-
-BinarySearchSpec > Finds a value in an array of even length PASSED
-
-BinarySearchSpec > Identifies that a value is not included in the array PASSED
-
-BinarySearchSpec > A value smaller than the arrays smallest value is not included PASSED
-
-BinarySearchSpec > A value larger than the arrays largest value is not included PASSED
-
-BinarySearchSpec > Nothing is included in an empty array PASSED
-
-BinarySearchSpec > Nothing is found when the left and right bounds cross PASSED
-
-Deprecated Gradle features were used in this build, 
-making it incompatible with Gradle 7.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-
-BUILD SUCCESSFUL in 12s
-3 actionable tasks: 3 executed
-
-
-
 >gradle test
 
 > Task :compileJava NO-SOURCE
@@ -172,4 +112,44 @@ BinarySearchSpec > Nothing is included in an empty array PASSED
 BinarySearchSpec > Nothing is found when the left and right bounds cross PASSED
 
 BUILD SUCCESSFUL in 13s
+3 actionable tasks: 3 executed
+
+
+
+>gradle test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+BinarySearchSpec > Finds a value in an array with one element > Finds a value in an array with one element PASSED
+
+BinarySearchSpec > Finds a value in the middle of an array > Finds a value in the middle of an array PASSED
+
+BinarySearchSpec > Finds a value at the beginning of an array > Finds a value at the beginning of an array PASSED
+
+BinarySearchSpec > Finds a value at the end of an array > Finds a value at the end of an array PASSED
+
+BinarySearchSpec > Finds a value in an array of odd length > Finds a value in an array of odd length PASSED
+
+BinarySearchSpec > Finds a value in an array of even length > Finds a value in an array of even length PASSED
+
+BinarySearchSpec > Identifies that a value is not included in the array > Identifies that a value is not included in the array PASSED
+
+BinarySearchSpec > A value smaller than the arrays smallest value is not included > A value smaller than the arrays smallest value is not included PASSED
+
+BinarySearchSpec > A value larger than the arrays largest value is not included > A value larger than the arrays largest value is not included PASSED
+
+BinarySearchSpec > Nothing is included in an empty array > Nothing is included in an empty array PASSED
+
+BinarySearchSpec > Nothing is found when the left and right bounds cross > Nothing is found when the left and right bounds cross PASSED
+
+BUILD SUCCESSFUL in 7s
 3 actionable tasks: 3 executed
