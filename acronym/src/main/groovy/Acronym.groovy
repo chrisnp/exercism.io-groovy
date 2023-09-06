@@ -1,11 +1,8 @@
 class Acronym {
 
     static String abbreviate(String phrase) {
-        
         def acronym = []
-
         boolean first = true
-
         for (ch in phrase) {
             if (/_/ =~ ch) 
                 continue
