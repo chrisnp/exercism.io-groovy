@@ -110,3 +110,47 @@ DartsSpec > Asymmetric position between the inner and middle circles PASSED
 
 BUILD SUCCESSFUL in 10s
 3 actionable tasks: 3 executed
+
+
+
+>gradlew test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+DartsSpec > Missed target PASSED
+
+DartsSpec > On the outer circle PASSED
+
+DartsSpec > On the middle circle PASSED
+
+DartsSpec > On the inner circle PASSED
+
+DartsSpec > Exactly on centre PASSED
+
+DartsSpec > Near the centre PASSED
+
+DartsSpec > Just within the inner circle PASSED
+
+DartsSpec > Just outside the inner circle PASSED
+
+DartsSpec > Just within the middle circle PASSED
+
+DartsSpec > Just outside the middle circle PASSED
+
+DartsSpec > Just within the outer circle PASSED
+
+DartsSpec > Just outside the outer circle PASSED
+
+DartsSpec > Asymmetric position between the inner and middle circles PASSED
+
+BUILD SUCCESSFUL in 6s
+3 actionable tasks: 3 executed
