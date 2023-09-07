@@ -6,13 +6,13 @@ class MatchingBrackets {
                 .replace("{}", "")
     }
 
-    // @TailRecursive
+    // tail recursive
     static boolean pairOff (String remaining) {
         if (remaining.isEmpty())
            return true
         String updated = matchAway(remaining)
         if (updated.length() == remaining.length()) 
-            false 
+            return false 
         else 
             pairOff(updated)
     }
