@@ -84,3 +84,42 @@ SeriesSpec > Empty series is invalid PASSED
 
 BUILD SUCCESSFUL in 15s
 3 actionable tasks: 3 executed
+
+
+
+>gradlew test
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+SeriesSpec > Slices of one from one PASSED
+
+SeriesSpec > Slices of one from two PASSED
+
+SeriesSpec > Slices of two PASSED
+
+SeriesSpec > Slices of two overlap PASSED
+
+SeriesSpec > Slices can include duplicate PASSED
+
+SeriesSpec > Slices of a long series PASSED
+
+SeriesSpec > Slice length is too large PASSED
+
+SeriesSpec > Slice length cannot be zero PASSED
+
+SeriesSpec > Slice length cannot be negative PASSED
+
+SeriesSpec > Empty series is invalid PASSED
+
+BUILD SUCCESSFUL in 25s
+3 actionable tasks: 3 executed
