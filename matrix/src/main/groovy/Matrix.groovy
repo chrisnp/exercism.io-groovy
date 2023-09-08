@@ -1,14 +1,13 @@
 class Matrix {
-
     private final int[][] matrix
 
     Matrix(String asString) {
-        matrix = asString
-                 .split('\n')
-                 .collect { row -> 
-                                row.split(' ')
-                                   .collect { c -> 
-                                                c as int }}
+        matrix = 
+            asString.split('\n')
+                    .collect { row -> 
+                        row.split(' ')
+                           .collect { c -> c as int }
+                    }
     }
 
     int[] row(int rowNumber) {
@@ -16,7 +15,6 @@ class Matrix {
     }
 
     int[] column(columnNumber) {
-        matrix.collect { row -> 
-                            row[columnNumber] }
+        matrix.collect { row -> row[columnNumber] }
     }
 }
