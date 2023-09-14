@@ -1,11 +1,10 @@
 class Accumulate {
 
-    static accumulate(Collection collection, Closure func) {
-        
-        if (!collection) 
+    static accumulate(Collection coll, Closure func) {
+
+        if (!coll) 
             []
         else 
-            [func(collection.head()), 
-             *accumulate(collection.tail(), func)]
+            [func(coll.head()), *accumulate(coll.tail(), func)]
     }
 }

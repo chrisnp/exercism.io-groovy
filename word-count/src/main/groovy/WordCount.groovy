@@ -1,25 +1,17 @@
 class WordCount {
-
     private final String phrase
-    private final REGEX = 
-            /([^A-Za-z0-9']|\B'|'\B)/
+    private final REGEX = /([^A-Za-z0-9']|\B'|'\B)/
 
     WordCount(sentence) {
-        this.phrase = 
-            sentence
-            .replaceAll(REGEX, ' ')
-            .toLowerCase()
+        this.phrase = sentence.replaceAll(REGEX, ' ').toLowerCase()
     }
 
     def countWords() {
-        phrase
-        .findAll(/[\w']+/)
+        phrase.findAll(/[\w']+/)
         .inject([:], {map, w -> 
-                      if (w) 
-                        map[w] = map[w] ?
-                        map[w] + 1 : 1
-                      map
-                     }
-                )
+                        if (w) 
+                            map[w] = map[w] ? map[w] + 1 : 1
+                        map
+                     })
     }
 }
