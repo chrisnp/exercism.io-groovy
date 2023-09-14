@@ -123,3 +123,47 @@ WordCountSpec > Alternating word separators not detected as a word PASSED
 BUILD SUCCESSFUL
 
 Total time: 32.795 secs
+
+
+
+>gradlew test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+WordCountSpec > Count one word PASSED
+
+WordCountSpec > Count one of each word PASSED
+
+WordCountSpec > Multiple occurrences of a word PASSED
+
+WordCountSpec > Handles cramped lists PASSED
+
+WordCountSpec > Handles expanded lists PASSED
+
+WordCountSpec > Ignore punctuation PASSED
+
+WordCountSpec > Include numbers PASSED
+
+WordCountSpec > Normalize case PASSED
+
+WordCountSpec > With apostrophes PASSED
+
+WordCountSpec > With quotations PASSED
+
+WordCountSpec > Substrings from the beginning PASSED
+
+WordCountSpec > Multiple spaces not detected as a word PASSED
+
+WordCountSpec > Alternating word separators not detected as a word PASSED
+
+BUILD SUCCESSFUL in 6s
+3 actionable tasks: 3 executed
