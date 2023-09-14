@@ -21,3 +21,32 @@ ResistorColorTrioSpec > Yellow and violet and yellow PASSED
 BUILD SUCCESSFUL
 
 Total time: 12.267 secs
+
+
+
+>gradlew test
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ResistorColorTrioSpec > Orange and orange and black PASSED
+
+ResistorColorTrioSpec > Blue and grey and brown PASSED
+
+ResistorColorTrioSpec > Red and black and red PASSED
+
+ResistorColorTrioSpec > Green and brown and orange PASSED
+
+ResistorColorTrioSpec > Yellow and violet and yellow PASSED
+
+BUILD SUCCESSFUL in 7s
+3 actionable tasks: 3 executed

@@ -9,13 +9,11 @@ class ResistorColorTrio {
     static String label(List<String> colorsInput) {
 
         def (tens, ones, zeros) = 
-            colorsInput.collect { c -> colors.indexOf(c) } 
+                colorsInput.collect { c -> colors.indexOf(c) } 
         
-        int resistance = 
-            "${tens}${ones}${'0'.multiply(zeros)}" as int
+        int resistance = "${tens}${ones}${'0'.multiply(zeros)}" as int
         
-        resistance >= 1000 ?
-        "${resistance / 1000} kiloohms" :
-        "${resistance} ohms"
+        resistance >= 1000  ? "${resistance / 1000} kiloohms" 
+                            : "${resistance} ohms"
     }
 }
