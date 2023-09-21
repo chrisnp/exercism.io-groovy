@@ -37,3 +37,47 @@ PerfectNumbersSpec > Negative integer is rejected (not a natural number) PASSED
 BUILD SUCCESSFUL
 
 Total time: 16.175 secs
+
+
+
+>gradlew test
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+PerfectNumbersSpec > 6 should be a Perfect number PASSED
+
+PerfectNumbersSpec > 28 should be a Perfect number PASSED
+
+PerfectNumbersSpec > 33550336 should be a Perfect number PASSED
+
+PerfectNumbersSpec > 12 should be a Abundant number PASSED
+
+PerfectNumbersSpec > 30 should be a Abundant number PASSED
+
+PerfectNumbersSpec > 33550335 should be a Abundant number PASSED
+
+PerfectNumbersSpec > 2 should be a Deficient number PASSED
+
+PerfectNumbersSpec > 4 should be a Deficient number PASSED
+
+PerfectNumbersSpec > 32 should be a Deficient number PASSED
+
+PerfectNumbersSpec > 33550337 should be a Deficient number PASSED
+
+PerfectNumbersSpec > Edge case (no factors other than itself) is classified correctly PASSED
+
+PerfectNumbersSpec > Zero is rejected (not a natural number) PASSED
+
+PerfectNumbersSpec > Negative integer is rejected (not a natural number) PASSED
+
+BUILD SUCCESSFUL in 16s
+3 actionable tasks: 3 executed
