@@ -1,10 +1,11 @@
 class Darts {
-
     static int score(x, y) {
-        def sumsqs = x * x + y * y
-        sumsqs <= 1   ? 10 : 
-        sumsqs <= 25  ? 5  : 
-        sumsqs <= 100 ? 1  : 
-        0
+        def sumSquares = x * x + y * y
+        sumSquares <= 1   
+        ? 10 : 
+        sumSquares <= 25  
+        ? 5 : 
+        sumSquares <= 100 
+        ? 1 : 0
     }
 }
