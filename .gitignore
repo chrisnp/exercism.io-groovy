@@ -11,4 +11,6 @@ string/
 .classpath
 .settings/
 HELP.md
+*.ps1
+
 .fake
