@@ -1,0 +1,55 @@
+----------------------------------------------
+Thu Nov 16 23:28:47 GTBST 2023
+----------------------------------------------
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+DndCharacterSpec > ability modifier for score 3 is -4 PASSED
+
+DndCharacterSpec > ability modifier for score 4 is -3 PASSED
+
+DndCharacterSpec > ability modifier for score 5 is -3 PASSED
+
+DndCharacterSpec > ability modifier for score 6 is -2 PASSED
+
+DndCharacterSpec > ability modifier for score 7 is -2 PASSED
+
+DndCharacterSpec > ability modifier for score 8 is -1 PASSED
+
+DndCharacterSpec > ability modifier for score 9 is -1 PASSED
+
+DndCharacterSpec > ability modifier for score 10 is 0 PASSED
+
+DndCharacterSpec > ability modifier for score 11 is 0 PASSED
+
+DndCharacterSpec > ability modifier for score 12 is +1 PASSED
+
+DndCharacterSpec > ability modifier for score 13 is +1 PASSED
+
+DndCharacterSpec > ability modifier for score 14 is +2 PASSED
+
+DndCharacterSpec > ability modifier for score 15 is +2 PASSED
+
+DndCharacterSpec > ability modifier for score 16 is +3 PASSED
+
+DndCharacterSpec > ability modifier for score 17 is +3 PASSED
+
+DndCharacterSpec > ability modifier for score 18 is +4 PASSED
+
+DndCharacterSpec > random ability is within range PASSED
+
+DndCharacterSpec > random character is valid PASSED
+
+DndCharacterSpec > each ability is only calculated once PASSED
+
+BUILD SUCCESSFUL in 6s
+3 actionable tasks: 3 executed
