@@ -42,3 +42,49 @@ QueenAttackSpec > cannot attack if falling diagonals are only the same when refl
 
 BUILD SUCCESSFUL in 21s
 3 actionable tasks: 3 executed
+
+
+
+----------------------------------------------
+Thu Jun 13 22:56:58 GTBDT 2024
+----------------------------------------------
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+QueenAttackSpec > queen with a valid position PASSED
+
+QueenAttackSpec > queen must have positive row PASSED
+
+QueenAttackSpec > queen must have row on board PASSED
+
+QueenAttackSpec > queen must have positive column PASSED
+
+QueenAttackSpec > queen must have column on board PASSED
+
+QueenAttackSpec > cannot attack PASSED
+
+QueenAttackSpec > can attack on same row PASSED
+
+QueenAttackSpec > can attack on same column PASSED
+
+QueenAttackSpec > can attack on first diagonal PASSED
+
+QueenAttackSpec > can attack on second diagonal PASSED
+
+QueenAttackSpec > can attack on third diagonal PASSED
+
+QueenAttackSpec > can attack on fourth diagonal PASSED
+
+QueenAttackSpec > cannot attack if falling diagonals are only the same when reflected across the longest falling diagonal PASSED
+
+BUILD SUCCESSFUL in 6s
+3 actionable tasks: 3 executed
