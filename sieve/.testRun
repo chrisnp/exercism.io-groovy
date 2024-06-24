@@ -1,0 +1,27 @@
+----------------------------------------------
+Mon Jun 24 16:26:36 GTBDT 2024
+----------------------------------------------
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+SieveSpec > No primes under two PASSED
+
+SieveSpec > Find first prime PASSED
+
+SieveSpec > Find primes up to 10 PASSED
+
+SieveSpec > Limit is prime PASSED
+
+SieveSpec > Find primes up to 1000 PASSED
+
+BUILD SUCCESSFUL in 6s
+3 actionable tasks: 3 executed
