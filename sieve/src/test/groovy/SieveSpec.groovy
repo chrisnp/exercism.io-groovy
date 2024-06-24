@@ -11,7 +11,7 @@ class SieveSpec extends Specification {
         expected = []
     }
 
-    @Ignore
+    // @Ignore
     def "Find first prime"() {
         expect:
         Sieve.primes(limit) == expected
@@ -21,7 +21,7 @@ class SieveSpec extends Specification {
         expected = [2]
     }
 
-    @Ignore
+    // @Ignore
     def "Find primes up to 10"() {
         expect:
         Sieve.primes(limit) == expected
@@ -31,7 +31,7 @@ class SieveSpec extends Specification {
         expected = [2, 3, 5, 7]
     }
 
-    @Ignore
+    // @Ignore
     def "Limit is prime"() {
         expect:
         Sieve.primes(limit) == expected
@@ -41,7 +41,7 @@ class SieveSpec extends Specification {
         expected = [2, 3, 5, 7, 11, 13]
     }
 
-    @Ignore
+    // @Ignore
     def "Find primes up to 1000"() {
         expect:
         Sieve.primes(limit) == expected
