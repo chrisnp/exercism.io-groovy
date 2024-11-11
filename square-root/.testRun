@@ -1,0 +1,29 @@
+----------------------------------------------
+Mon Nov 11 19:50:29 GTBST 2024
+----------------------------------------------
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+SquareRootSpec > root of 1 PASSED
+
+SquareRootSpec > root of 4 PASSED
+
+SquareRootSpec > root of 25 PASSED
+
+SquareRootSpec > root of 81 PASSED
+
+SquareRootSpec > root of 196 PASSED
+
+SquareRootSpec > root of 65025 PASSED
+
+BUILD SUCCESSFUL in 6s
+3 actionable tasks: 3 executed
