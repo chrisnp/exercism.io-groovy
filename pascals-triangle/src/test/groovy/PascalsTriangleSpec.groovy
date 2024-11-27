@@ -7,7 +7,7 @@ class PascalsTriangleSpec extends Specification {
         PascalsTriangle.rows(0) == []
     }
 
-    @Ignore
+    // @Ignore
     def "single row"() {
         expect:
         PascalsTriangle.rows(1) == [
@@ -15,7 +15,7 @@ class PascalsTriangleSpec extends Specification {
         ]
     }
 
-    @Ignore
+    // @Ignore
     def "two rows"() {
         expect:
         PascalsTriangle.rows(2) == [
@@ -24,7 +24,7 @@ class PascalsTriangleSpec extends Specification {
         ]
     }
 
-    @Ignore
+    // @Ignore
     def "three rows"() {
         expect:
         PascalsTriangle.rows(3) == [
@@ -34,7 +34,7 @@ class PascalsTriangleSpec extends Specification {
         ]
     }
 
-    @Ignore
+    // @Ignore
     def "four rows"() {
         expect:
         PascalsTriangle.rows(4) == [
@@ -45,7 +45,7 @@ class PascalsTriangleSpec extends Specification {
         ]
     }
 
-    @Ignore
+    // @Ignore
     def "five rows"() {
         expect:
         PascalsTriangle.rows(5) == [
@@ -57,7 +57,7 @@ class PascalsTriangleSpec extends Specification {
         ]
     }
 
-    @Ignore
+    // @Ignore
     def "six rows"() {
         expect:
         PascalsTriangle.rows(6) == [
@@ -70,7 +70,7 @@ class PascalsTriangleSpec extends Specification {
         ]
     }
 
-    @Ignore
+    // @Ignore
     def "ten rows"() {
         expect:
         PascalsTriangle.rows(10) == [
