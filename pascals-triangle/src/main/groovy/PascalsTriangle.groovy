@@ -2,28 +2,19 @@ import java.util.stream.IntStream
 
 class PascalsTriangle {
 
-    // static rows(count) {
-    //     throw new UnsupportedOperationException('Method implementation is missing')
-    // }
-
     static List<List<Integer>> rows(count) {
-        IntStream.range(0, count)
-                 .mapToObj(this::row)
-                 .toArray()
-    }
+        def factorial = { 
+            IntStream.range(1, it + 1).reduce(1, (acc, x) -> acc * x)
+        }
 
-    static List<Integer> row(int n) {
-        return IntStream.range(0, n + 1)
-                        .map(x -> binomial(n, x))
-                        .toArray()
-    }
+        def binomial = { i = j, j = 0 ->
+            factorial(i).intdiv(factorial(j) * factorial(i - j))
+        }
 
-    static int binomial(int i, int j) {
-        factorial(i) / factorial(j) / factorial(i - j);
-    }
-    
-    static int factorial(int n) {
-        IntStream.range(1, n + 1)
-                 .reduce(1, (x, y) -> x * y);
+        def row = { r -> 
+            IntStream.range(0, r + 1).map(x -> binomial(r, x)).toList()
+        }
+        
+        IntStream.range(0, count).mapToObj(n -> row(n)).toList()
     }
 }
