@@ -31,3 +31,39 @@ PascalsTriangleSpec > ten rows PASSED
 
 BUILD SUCCESSFUL in 6s
 3 actionable tasks: 3 executed
+
+
+
+----------------------------------------------
+Thu Nov 28 12:58:09 GTBST 2024
+----------------------------------------------
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+PascalsTriangleSpec > zero rows PASSED
+
+PascalsTriangleSpec > single row PASSED
+
+PascalsTriangleSpec > two rows PASSED
+
+PascalsTriangleSpec > three rows PASSED
+
+PascalsTriangleSpec > four rows PASSED
+
+PascalsTriangleSpec > five rows PASSED
+
+PascalsTriangleSpec > six rows PASSED
+
+PascalsTriangleSpec > ten rows PASSED
+
+BUILD SUCCESSFUL in 6s
+3 actionable tasks: 3 executed
