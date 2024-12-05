@@ -7,7 +7,7 @@ class AllYourBase {
             throw new ArithmeticException(
                 "invalid input base"
             )
-        numInBase = 
+        int numInBase = 
             digits.reverse().indexed().collect { i, d -> 
                 if (d < 0 || d >= inputBase) 
                     throw new ArithmeticException(
