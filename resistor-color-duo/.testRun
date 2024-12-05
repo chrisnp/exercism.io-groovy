@@ -45,3 +45,33 @@ ResistorColorDuoSpec > Ignore additional colors PASSED
 BUILD SUCCESSFUL
 
 Total time: 14.414 secs
+
+
+
+----------------------------------------------
+Mon Dec  2 14:37:14 GTBST 2024
+----------------------------------------------
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ResistorColorDuoSpec > Brown and black PASSED
+
+ResistorColorDuoSpec > Blue and grey PASSED
+
+ResistorColorDuoSpec > Yellow and violet PASSED
+
+ResistorColorDuoSpec > Orange and orange PASSED
+
+ResistorColorDuoSpec > Ignore additional colors PASSED
+
+BUILD SUCCESSFUL in 6s
+3 actionable tasks: 3 executed
