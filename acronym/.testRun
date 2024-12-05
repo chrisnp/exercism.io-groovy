@@ -79,3 +79,41 @@ Total time: 2.833 secs
 BUILD SUCCESSFUL
 
 Total time: 6.092 secs
+
+
+
+----------------------------------------------
+Mon Dec  2 16:38:35 GTBST 2024
+----------------------------------------------
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+AcronymSpec > Basic PASSED
+
+AcronymSpec > Lowercase words PASSED
+
+AcronymSpec > Punctuation PASSED
+
+AcronymSpec > All caps word PASSED
+
+AcronymSpec > Punctuation without whitespace PASSED
+
+AcronymSpec > Very long abbreviation PASSED
+
+AcronymSpec > Consecutive delimiters PASSED
+
+AcronymSpec > Apostrophes PASSED
+
+AcronymSpec > Underscore emphasis PASSED
+
+BUILD SUCCESSFUL in 5s
+3 actionable tasks: 3 executed
