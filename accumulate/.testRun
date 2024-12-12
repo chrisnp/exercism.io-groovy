@@ -23,3 +23,22 @@ AccumulateSpec > Accumulate within accumulate PASSED
 BUILD SUCCESSFUL
 
 Total time: 8.973 secs
+
+
+
+----------------------------------------------
+Mon Dec  2 16:33:29 GTBST 2024
+----------------------------------------------
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+> Task :test
+
+BUILD SUCCESSFUL in 5s
+3 actionable tasks: 3 executed
