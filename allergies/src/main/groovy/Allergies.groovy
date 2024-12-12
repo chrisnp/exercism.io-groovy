@@ -1,9 +1,9 @@
 class Allergies {
 
-    private static final CAUSES = ['eggs', 'peanuts', 
-                                   'shellfish', 'strawberries',
-                                   'tomatoes', 'chocolate', 
-                                   'pollen', 'cats']
+    private static final CAUSES = [
+        'eggs', 'peanuts', 'shellfish', 'strawberries',
+        'tomatoes', 'chocolate', 'pollen', 'cats'
+    ]
 
     private final List<String> allergies
 
