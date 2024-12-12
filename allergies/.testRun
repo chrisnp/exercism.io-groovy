@@ -45,3 +45,57 @@ AllergiesSpec > No allergen score parts PASSED
 BUILD SUCCESSFUL
 
 Total time: 7.207 secs
+
+
+
+----------------------------------------------
+Mon Dec  2 16:44:29 GTBST 2024
+----------------------------------------------
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+AllergiesSpec > Testing for eggs allergy PASSED
+
+AllergiesSpec > Testing for peanuts allergy PASSED
+
+AllergiesSpec > Testing for shellfish allergy PASSED
+
+AllergiesSpec > Testing for strawberries allergy PASSED
+
+AllergiesSpec > Testing for tomatoes allergy PASSED
+
+AllergiesSpec > Testing for chocolate allergy PASSED
+
+AllergiesSpec > Testing for pollen allergy PASSED
+
+AllergiesSpec > Testing for cats allergy PASSED
+
+AllergiesSpec > No allergies PASSED
+
+AllergiesSpec > Just eggs PASSED
+
+AllergiesSpec > Just peanuts PASSED
+
+AllergiesSpec > Just strawberries PASSED
+
+AllergiesSpec > Eggs and peanuts PASSED
+
+AllergiesSpec > More than eggs but not peanuts PASSED
+
+AllergiesSpec > Lots of stuff PASSED
+
+AllergiesSpec > Everything PASSED
+
+AllergiesSpec > No allergen score parts PASSED
+
+BUILD SUCCESSFUL in 5s
+3 actionable tasks: 3 executed
