@@ -129,3 +129,73 @@ BobSpec > Non-question ending with whitespace PASSED
 
 BUILD SUCCESSFUL in 15s
 3 actionable tasks: 3 executed
+
+
+
+----------------------------------------------
+Mon Dec  2 17:22:55 GTBST 2024
+----------------------------------------------
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+BobSpec > Stating something PASSED
+
+BobSpec > Shouting PASSED
+
+BobSpec > Shouting gibberish PASSED
+
+BobSpec > Asking a question PASSED
+
+BobSpec > Asking a numeric question PASSED
+
+BobSpec > Asking gibberish PASSED
+
+BobSpec > Talking forcefully PASSED
+
+BobSpec > Using acronyms in regular speech PASSED
+
+BobSpec > Forceful question PASSED
+
+BobSpec > Shouting numbers PASSED
+
+BobSpec > No letters PASSED
+
+BobSpec > Question with no letters PASSED
+
+BobSpec > Shouting with special characters PASSED
+
+BobSpec > Shouting with no exclamation mark PASSED
+
+BobSpec > Statement containing question mark PASSED
+
+BobSpec > Non-letters with question PASSED
+
+BobSpec > Prattling on PASSED
+
+BobSpec > Silence PASSED
+
+BobSpec > Prolonged silence PASSED
+
+BobSpec > Alternate silence PASSED
+
+BobSpec > Multiple line question PASSED
+
+BobSpec > Starting with whitespace PASSED
+
+BobSpec > Ending with whitespace PASSED
+
+BobSpec > Other whitespace PASSED
+
+BobSpec > Non-question ending with whitespace PASSED
+
+BUILD SUCCESSFUL in 6s
+3 actionable tasks: 3 executed
