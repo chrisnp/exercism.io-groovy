@@ -79,3 +79,31 @@ EliudsEggsSpec > 13 eggs PASSED
 
 BUILD SUCCESSFUL in 6s
 3 actionable tasks: 3 executed
+
+
+
+----------------------------------------------
+Wed Dec 18 15:32:18 GTBST 2024
+----------------------------------------------
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+EliudsEggsSpec > 0 eggs PASSED
+
+EliudsEggsSpec > 1 egg PASSED
+
+EliudsEggsSpec > 4 eggs PASSED
+
+EliudsEggsSpec > 13 eggs PASSED
+
+BUILD SUCCESSFUL in 6s
+3 actionable tasks: 3 executed
