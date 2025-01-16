@@ -50,3 +50,33 @@ ResistorColorTrioSpec > Yellow and violet and yellow PASSED
 
 BUILD SUCCESSFUL in 7s
 3 actionable tasks: 3 executed
+
+
+
+----------------------------------------------
+Mon Dec  2 14:36:36 GTBST 2024
+----------------------------------------------
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ResistorColorTrioSpec > Orange and orange and black PASSED
+
+ResistorColorTrioSpec > Blue and grey and brown PASSED
+
+ResistorColorTrioSpec > Red and black and red PASSED
+
+ResistorColorTrioSpec > Green and brown and orange PASSED
+
+ResistorColorTrioSpec > Yellow and violet and yellow PASSED
+
+BUILD SUCCESSFUL in 6s
+3 actionable tasks: 3 executed
