@@ -15,10 +15,8 @@ class RotationalCipher {
 
     String rotate(String cipherText) {
         cipherText.toList()
-                  .collect { s -> s as char }
-                  .collect { ch -> ch.isLetter() ? 
-                                   rot(ch, key, 26) : 
-                                   ch }
+                  .collect { it as char }
+                  .collect { it.isLetter() ? rot(it, key, 26) : it }
                   .join()
     }
 }
