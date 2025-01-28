@@ -153,3 +153,45 @@ BinarySearchSpec > Nothing is found when the left and right bounds cross > Nothi
 
 BUILD SUCCESSFUL in 7s
 3 actionable tasks: 3 executed
+
+
+
+----------------------------------------------
+Mon Dec  2 17:12:43 GTBST 2024
+----------------------------------------------
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+BinarySearchSpec > Finds a value in an array with one element PASSED
+
+BinarySearchSpec > Finds a value in the middle of an array PASSED
+
+BinarySearchSpec > Finds a value at the beginning of an array PASSED
+
+BinarySearchSpec > Finds a value at the end of an array PASSED
+
+BinarySearchSpec > Finds a value in an array of odd length PASSED
+
+BinarySearchSpec > Finds a value in an array of even length PASSED
+
+BinarySearchSpec > Identifies that a value is not included in the array PASSED
+
+BinarySearchSpec > A value smaller than the arrays smallest value is not included PASSED
+
+BinarySearchSpec > A value larger than the arrays largest value is not included PASSED
+
+BinarySearchSpec > Nothing is included in an empty array PASSED
+
+BinarySearchSpec > Nothing is found when the left and right bounds cross PASSED
+
+BUILD SUCCESSFUL in 6s
+3 actionable tasks: 3 executed
