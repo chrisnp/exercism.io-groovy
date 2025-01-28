@@ -9,18 +9,14 @@ class BinarySearch {
         if (data[mid] == value) return mid
         if (low >= high ) return -1
         else {
-            if (data[mid] > value) {
-                return binarySearch(value, low, mid - 1)
-            }
-            else {
-                return binarySearch(value, mid + 1, high)
-            }
+            if (data[mid] > value) { binarySearch(value, low, mid - 1) } 
+            else { binarySearch(value, mid + 1, high) }
         }
     }
 
     int indexOf(item) {
-        if (!data || item < data[0] || item > data[data.size() - 1])
+        if (!data || item < data[0] || item > data[data.size() - 1]) 
             return -1 
-        return binarySearch(item, 0, data.size() - 1)
+        binarySearch(item, 0, data.size() - 1)
     }
 }
