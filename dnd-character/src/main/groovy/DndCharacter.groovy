@@ -9,7 +9,6 @@ class DndCharacter {
     private def rollDice() { 
         (int) Math.floor(6 * Math.random()) + 1 
     }
-    
     DndCharacter() {
         strength = ability()
         dexterity = ability()
@@ -19,7 +18,6 @@ class DndCharacter {
         charisma = ability()
         hitpoints = 10 + modifier(constitution)
     }
-    
     def ability() {
         def discard = 7
         def rollsum = 0
@@ -30,9 +28,7 @@ class DndCharacter {
         }
         rollsum - discard
     }
-
     def modifier(int ability) {
         (int) Math.floorDiv(ability - 10, 2)
     }
-
 }
