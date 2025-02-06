@@ -87,3 +87,35 @@ ProverbSpec > Four pieces modernized PASSED
 
 BUILD SUCCESSFUL in 15s
 3 actionable tasks: 3 executed
+
+
+
+----------------------------------------------
+Mon Dec  2 14:44:32 GTBST 2024
+----------------------------------------------
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+ProverbSpec > Zero pieces PASSED
+
+ProverbSpec > One piece PASSED
+
+ProverbSpec > Two pieces PASSED
+
+ProverbSpec > Three pieces PASSED
+
+ProverbSpec > Full proverb PASSED
+
+ProverbSpec > Four pieces modernized PASSED
+
+BUILD SUCCESSFUL in 6s
+3 actionable tasks: 3 executed
