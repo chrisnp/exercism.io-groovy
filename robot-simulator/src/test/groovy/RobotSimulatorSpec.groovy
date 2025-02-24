@@ -18,7 +18,7 @@ class RobotSimulatorSpec extends Specification {
         "at negative position facing south" || -1 | -1 | "south"
     }
 
-    @Ignore
+    // @Ignore
     @Unroll
     def "Rotating clockwise #label"() {
         given:
@@ -40,7 +40,7 @@ class RobotSimulatorSpec extends Specification {
         "changes west to north" || 0  | 0  | "west"     || 0  | 0  | "north"
     }
 
-    @Ignore
+    // @Ignore
     @Unroll
     def "Rotating counter-clockwise #label"() {
         given:
@@ -63,7 +63,7 @@ class RobotSimulatorSpec extends Specification {
     }
 
     @Unroll
-    @Ignore
+    // @Ignore
     def "Moving forward one #label"() {
         given:
         def results = new RobotSimulator(x1, y1, direction)
@@ -84,7 +84,7 @@ class RobotSimulatorSpec extends Specification {
         "facing west decrements X"  || 0  | 0  | "west"    || -1 | 0
     }
 
-    @Ignore
+    // @Ignore
     @Unroll
     def "Follow series of instructions #label"() {
         given:
