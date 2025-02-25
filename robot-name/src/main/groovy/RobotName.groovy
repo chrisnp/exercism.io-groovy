@@ -23,7 +23,8 @@ class RobotName {
     private String generateName() {
         String letters = 
             (1..2).collect { ("A".."Z")[random.nextInt(26)] }.join('') 
-        String numbers = (1..3).collect { random.nextInt(10) }.join('')
+        String numbers = 
+            (1..3).collect { random.nextInt(10) }.join('')
         letters + numbers
     }
 }
