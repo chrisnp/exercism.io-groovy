@@ -1,0 +1,53 @@
+----------------------------------------------
+Tue, Feb 25, 2025  3:08:07 PM
+----------------------------------------------
+
+> Task :compileJava NO-SOURCE
+> Task :compileGroovy
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava NO-SOURCE
+> Task :compileTestGroovy
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+RobotSimulatorSpec > Create robot at origin at origin facing north PASSED
+
+RobotSimulatorSpec > Create robot at origin at negative position facing south PASSED
+
+RobotSimulatorSpec > Rotating clockwise changes north to east PASSED
+
+RobotSimulatorSpec > Rotating clockwise changes east to south PASSED
+
+RobotSimulatorSpec > Rotating clockwise changes south to west PASSED
+
+RobotSimulatorSpec > Rotating clockwise changes west to north PASSED
+
+RobotSimulatorSpec > Rotating counter-clockwise changes north to west PASSED
+
+RobotSimulatorSpec > Rotating counter-clockwise changes west to south PASSED
+
+RobotSimulatorSpec > Rotating counter-clockwise changes south to east PASSED
+
+RobotSimulatorSpec > Rotating counter-clockwise changes east to north PASSED
+
+RobotSimulatorSpec > Moving forward one facing north increments Y PASSED
+
+RobotSimulatorSpec > Moving forward one facing south decrements Y PASSED
+
+RobotSimulatorSpec > Moving forward one facing east increments X PASSED
+
+RobotSimulatorSpec > Moving forward one facing west decrements X PASSED
+
+RobotSimulatorSpec > Follow series of instructions moving east and north from README PASSED
+
+RobotSimulatorSpec > Follow series of instructions moving west and north PASSED
+
+RobotSimulatorSpec > Follow series of instructions moving west and south PASSED
+
+RobotSimulatorSpec > Follow series of instructions moving east and north PASSED
+
+BUILD SUCCESSFUL in 8s
+3 actionable tasks: 3 executed
